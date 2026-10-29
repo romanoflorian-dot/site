@@ -1,0 +1,1715 @@
+{
+ "obras": [
+  {
+   "id": "esquina",
+   "titulo": "Esquina",
+   "ano": "2023",
+   "ano_num": 2023,
+   "tipo": "instalação",
+   "materiais": "Madeira, tinta acrílica, áudios, sensores de presença",
+   "dimensoes": "Dimensões variáveis",
+   "local": "Futuros – Arte e Tecnologia, Rio de Janeiro",
+   "exposicao": "a-pele-do-mundo",
+   "texto": [
+    "Instalação com paredes de madeira pintadas, sensores de presença e áudios de motores e trânsito, acionados pela passagem do público. Apresentada na exposição A Pele do Mundo, Futuros – Arte e Tecnologia, Rio de Janeiro, 2023."
+   ],
+   "texto_en": [
+    "Installation with painted wooden walls, presence sensors and recordings of engines and traffic, triggered as visitors pass. Shown in the exhibition A Pele do Mundo, Futuros – Arte e Tecnologia, Rio de Janeiro, 2023."
+   ],
+   "materiais_en": "Wood, acrylic paint, audio, presence sensors",
+   "dimensoes_en": "Variable dimensions",
+   "local_en": "Futuros – Arte e Tecnologia, Rio de Janeiro"
+  },
+  {
+   "id": "esquinas",
+   "titulo": "Esquinas I–X",
+   "ano": "2023",
+   "ano_num": 2023,
+   "tipo": "desenho",
+   "materiais": "Acrílica sobre tela",
+   "dimensoes": "10 peças, 100 × 100 cm cada",
+   "local": "Futuros – Arte e Tecnologia, Rio de Janeiro",
+   "exposicao": "a-pele-do-mundo",
+   "texto": [
+    "Série de dez desenhos em preto e branco, acrílica sobre tela, 100 × 100 cm cada, compostos por linhas que se cruzam em perspectivas simultâneas. Apresentada na exposição A Pele do Mundo, Futuros – Arte e Tecnologia, 2023."
+   ],
+   "imagens": [
+    {
+     "src": "media/obras/esquinas/esquina-01.jpg",
+     "alt": "Esquina I, linhas pretas sobre quadrado branco, na parede da galeria",
+     "credito": "Esquina I · Foto: Pedro Tressi",
+     "fotografo": "Pedro Tressi"
+    },
+    {
+     "src": "media/obras/esquinas/esquina-02.jpg",
+     "alt": "Esquina II, linhas pretas sobre quadrado branco, na parede da galeria",
+     "credito": "Esquina II · Foto: Pedro Tressi",
+     "fotografo": "Pedro Tressi"
+    },
+    {
+     "src": "media/obras/esquinas/esquina-03.jpg",
+     "alt": "Esquina III, linhas pretas sobre quadrado branco, na parede da galeria",
+     "credito": "Esquina III · Foto: Pedro Tressi",
+     "fotografo": "Pedro Tressi"
+    },
+    {
+     "src": "media/obras/esquinas/esquina-04.jpg",
+     "alt": "Esquina IV, linhas pretas sobre quadrado branco, na parede da galeria",
+     "credito": "Esquina IV · Foto: Pedro Tressi",
+     "fotografo": "Pedro Tressi"
+    },
+    {
+     "src": "media/obras/esquinas/esquina-05.jpg",
+     "alt": "Esquina V, linhas pretas sobre quadrado branco, na parede da galeria",
+     "credito": "Esquina V · Foto: Pedro Tressi",
+     "fotografo": "Pedro Tressi"
+    },
+    {
+     "src": "media/obras/esquinas/esquina-06.jpg",
+     "alt": "Esquina VI, linhas pretas sobre quadrado branco, na parede da galeria",
+     "credito": "Esquina VI · Foto: Pedro Tressi",
+     "fotografo": "Pedro Tressi"
+    },
+    {
+     "src": "media/obras/esquinas/esquina-07.jpg",
+     "alt": "Esquina VII, linhas pretas sobre quadrado branco, na parede da galeria",
+     "credito": "Esquina VII · Foto: Pedro Tressi",
+     "fotografo": "Pedro Tressi"
+    },
+    {
+     "src": "media/obras/esquinas/esquina-08.jpg",
+     "alt": "Esquina VIII, linhas pretas sobre quadrado branco, na parede da galeria",
+     "credito": "Esquina VIII · Foto: Pedro Tressi",
+     "fotografo": "Pedro Tressi"
+    },
+    {
+     "src": "media/obras/esquinas/esquina-09.jpg",
+     "alt": "Esquina IX, linhas pretas sobre quadrado branco, na parede da galeria",
+     "credito": "Esquina IX · Foto: Pedro Tressi",
+     "fotografo": "Pedro Tressi"
+    },
+    {
+     "src": "media/obras/esquinas/esquina-10.jpg",
+     "alt": "Esquina X, linhas pretas sobre quadrado branco, na parede da galeria",
+     "credito": "Esquina X · Foto: Pedro Tressi",
+     "fotografo": "Pedro Tressi"
+    }
+   ],
+   "texto_en": [
+    "Series of ten black-and-white drawings, acrylic on canvas, 100 × 100 cm each, made of lines crossing in simultaneous perspectives. Shown in the exhibition A Pele do Mundo, Futuros – Arte e Tecnologia, 2023."
+   ],
+   "materiais_en": "Acrylic on canvas",
+   "dimensoes_en": "10 pieces, 100 × 100 cm each",
+   "local_en": "Futuros – Arte e Tecnologia, Rio de Janeiro"
+  },
+  {
+   "id": "mascara-sonora",
+   "titulo": "Máscara Sonora",
+   "ano": "2011 / 2023",
+   "ano_num": 2023,
+   "tipo": "performance",
+   "materiais": "Máscara de gás alterada com alto-falantes; videoperformance",
+   "dimensoes": "",
+   "local": "Rio de Janeiro",
+   "exposicao": "a-pele-do-mundo",
+   "texto": [
+    "Performance com máscara de gás alterada, na qual alto-falantes reproduzem o som de uma respiração. Realizada em 2011 e reapresentada como videoperformance em 2022–2023."
+   ],
+   "video": [
+    {
+     "plataforma": "youtube",
+     "id": "QD09kc16iYE",
+     "titulo": "Máscara Sonora"
+    }
+   ],
+   "texto_en": [
+    "Performance with an altered gas mask in which loudspeakers play the sound of breathing. First performed in 2011 and presented again as a video performance in 2022–2023."
+   ],
+   "materiais_en": "Gas mask altered with loudspeakers; video performance",
+   "local_en": "Rio de Janeiro"
+  },
+  {
+   "id": "turbina",
+   "titulo": "Turbina",
+   "ano": "2013 / 2023",
+   "ano_num": 2023,
+   "tipo": "instalação",
+   "materiais": "Madeira, tinta acrílica, PVC, áudio do mar",
+   "dimensoes": "261 × 263 cm (2013); 410 × 285 × 30 cm (2023)",
+   "local": "Casa de Cultura Laura Alvim (2013); Futuros – Arte e Tecnologia (2023)",
+   "exposicao": "a-pele-do-mundo",
+   "texto": [
+    "Instalação em forma de parede, com tubos de PVC e madeira pintada, que reproduz gravações do mar. Apresentada na exposição Sonar, Casa de Cultura Laura Alvim (2013), e em A Pele do Mundo, Futuros – Arte e Tecnologia (2023)."
+   ],
+   "soundcloud": "https://soundcloud.com/floriano-romano/mar-frado-varios-falantes-441khz",
+   "texto_en": [
+    "Wall-shaped installation of PVC pipes and painted wood that plays recordings of the sea. Shown in the exhibition Sonar, Casa de Cultura Laura Alvim (2013), and in A Pele do Mundo, Futuros – Arte e Tecnologia (2023)."
+   ],
+   "materiais_en": "Wood, acrylic paint, PVC, recording of the sea",
+   "dimensoes_en": "261 × 263 cm (2013); 410 × 285 × 30 cm (2023)",
+   "local_en": "Casa de Cultura Laura Alvim (2013); Futuros – Arte e Tecnologia (2023)",
+   "colecao": "Coleção Sérgio Carvalho",
+   "colecao_en": "Sérgio Carvalho Collection"
+  },
+  {
+   "id": "historias-anonimas",
+   "titulo": "Histórias Anônimas",
+   "ano": "2022",
+   "ano_num": 2022,
+   "tipo": "instalação",
+   "materiais": "Caixa de som amplificada com tripé, gravações ficcionais e gravações de campo",
+   "dimensoes": "3 × 2 × 1,80 m; 3 min 45 s. Versão em coluna de caixas de som artesanais em madeira: 160 × 20 cm",
+   "local": "Paço Imperial, Rio de Janeiro (2022); Centro Cultural São Paulo (2023)",
+   "texto": [
+    "Instalação sonora com caixa de som amplificada sobre tripé, gravações ficcionais e gravações de campo, dedicada aos trabalhadores anônimos que construíram a cidade. Apresentada na exposição coletiva Espaços do Ainda, com curadoria de Luiz Cláudio da Costa, no Paço Imperial, Rio de Janeiro (2022), e no Centro Cultural São Paulo (2023)."
+   ],
+   "audio": "media/historias-anonimas/historias-anonimas.mp3",
+   "citacao": "E se a rua do Ouvidor se chamasse Maria das Dores / E se a rua do Senado se chamasse João da Silva / E se a Presidente Vargas se chamasse João Cândido / E se as ruas fossem todas dos Silvas e dos Santos / E se a cidade lembrasse dos seus corpos / O que ela diria",
+   "texto_en": [
+    "Sound installation with an amplified speaker on a tripod, fictional recordings and field recordings, dedicated to the anonymous workers who built the city. Shown in the group exhibition Espaços do Ainda, curated by Luiz Cláudio da Costa, at the Paço Imperial, Rio de Janeiro (2022), and at the Centro Cultural São Paulo (2023)."
+   ],
+   "materiais_en": "Amplified loudspeakers on a stand, fictional recordings and field recordings",
+   "dimensoes_en": "3 × 2 × 1.80 m; 3 min 45 s. Version as a column of handmade wooden speaker boxes: 160 × 20 cm",
+   "citacao_en": "What if Rua do Ouvidor were called Maria das Dores / What if Rua do Senado were called João da Silva / What if Presidente Vargas were called João Cândido / What if every street belonged to the Silvas and the Santos / What if the city remembered its bodies / What would it say",
+   "local_en": "Paço Imperial, Rio de Janeiro (2022); Centro Cultural São Paulo (2023)",
+   "exposicoes_coletivas": [
+    "espacos-do-ainda-2022",
+    "espacos-do-ainda-2023"
+   ]
+  },
+  {
+   "id": "mar-sobre-mar",
+   "titulo": "Mar Sobre Mar",
+   "ano": "2018",
+   "ano_num": 2018,
+   "tipo": "instalação",
+   "materiais": "",
+   "dimensoes": "",
+   "local": "",
+   "texto": [],
+   "pendente": "ficha técnica, texto e registros"
+  },
+  {
+   "id": "espreguicadeiras-sonoras",
+   "titulo": "Espreguiçadeiras Sonoras",
+   "ano": "2016",
+   "ano_num": 2016,
+   "tipo": "objeto sonoro",
+   "materiais": "Madeira, áudio do mar",
+   "dimensoes": "210 × 84 × 83 cm",
+   "local": "Parque das Ruínas, Rio de Janeiro (2016); Futuros – Arte e Tecnologia (2023)",
+   "exposicao": "muro-de-som",
+   "texto": [
+    "Espreguiçadeiras de madeira com áudio do mar. Apresentadas na exposição Muro de Som, Parque das Ruínas (2016), e em A Pele do Mundo, Futuros – Arte e Tecnologia (2023)."
+   ],
+   "soundcloud": "https://soundcloud.com/floriano-romano/espreguicadeiras-sonoras",
+   "exposicoes_extra": [
+    "a-pele-do-mundo"
+   ],
+   "exposicoes_coletivas": [
+    "virada-sonica"
+   ],
+   "texto_en": [
+    "Wooden deckchairs with recordings of the sea. Shown in the exhibition Muro de Som, Parque das Ruínas (2016), and in A Pele do Mundo, Futuros – Arte e Tecnologia (2023)."
+   ],
+   "materiais_en": "Wood, recording of the sea",
+   "local_en": "Parque das Ruínas, Rio de Janeiro (2016); Futuros – Arte e Tecnologia (2023)"
+  },
+  {
+   "id": "muro-de-som",
+   "titulo": "Muro de Som",
+   "ano": "2016",
+   "ano_num": 2016,
+   "tipo": "instalação",
+   "materiais": "Duas paredes com 32 alto-falantes cada, som de vento",
+   "dimensoes": "2 paredes de 330 × 170 cm",
+   "local": "Parque das Ruínas, Rio de Janeiro",
+   "exposicao": "muro-de-som",
+   "texto": [
+    "Instalação com duas paredes de 32 alto-falantes cada, que reproduzem um som de vento feito a partir da respiração do artista. Exposição individual no Parque das Ruínas, Rio de Janeiro, 2016, com curadoria de Guilherme Bueno."
+   ],
+   "video": [
+    {
+     "plataforma": "youtube",
+     "id": "l_BQa5RSJsA",
+     "titulo": "Muro de Som, Canal-Arte, 2016"
+    }
+   ],
+   "soundcloud": "https://soundcloud.com/floriano-romano/muro",
+   "texto_en": [
+    "Installation with two walls of 32 loudspeakers each, playing a wind sound made from the artist's breathing. Solo exhibition at Parque das Ruínas, Rio de Janeiro, 2016, curated by Guilherme Bueno."
+   ],
+   "materiais_en": "Two walls with 32 loudspeakers each, sound of wind",
+   "dimensoes_en": "2 walls, 330 × 170 cm",
+   "local_en": "Parque das Ruínas, Rio de Janeiro",
+   "premio": "Parque das Ruínas, Prefeitura do Rio de Janeiro, 2016",
+   "premio_en": "Parque das Ruínas, City of Rio de Janeiro, 2016",
+   "premio_curto": "Prefeitura do Rio",
+   "premio_curto_en": "City of Rio de Janeiro"
+  },
+  {
+   "id": "binoculos-sonoros",
+   "titulo": "Binóculos Sonoros",
+   "ano": "2016",
+   "ano_num": 2016,
+   "tipo": "objeto sonoro",
+   "materiais": "Binóculos panorâmicos de moeda adaptados, narrativa ficcional",
+   "dimensoes": "",
+   "local": "Parque das Ruínas, Rio de Janeiro",
+   "exposicao": "muro-de-som",
+   "texto": [
+    "Binóculos panorâmicos de moeda adaptados para reproduzir uma narrativa ficcional sobre a paisagem. Apresentados na exposição Muro de Som, Parque das Ruínas, 2016."
+   ],
+   "texto_en": [
+    "Coin-operated panoramic binoculars adapted to play a fictional narrative about the landscape. Shown in the exhibition Muro de Som, Parque das Ruínas, 2016."
+   ],
+   "materiais_en": "Coin-operated panoramic binoculars, adapted; fictional narrative",
+   "local_en": "Parque das Ruínas, Rio de Janeiro"
+  },
+  {
+   "id": "errancia",
+   "titulo": "Errância",
+   "ano": "2016",
+   "ano_num": 2016,
+   "tipo": "instalação",
+   "materiais": "Alto-falantes, gravações feitas com um sistema de captação montado no corpo de um passante",
+   "dimensoes": "Dimensões variáveis",
+   "local": "Sala A Contemporânea, Centro Cultural Banco do Brasil, Rio de Janeiro",
+   "exposicao": "errancia",
+   "texto": [
+    "Instalação sonora com alto-falantes e gravações de conversas em bares da Gávea, Lapa, Leblon, Rocinha e Praça Tiradentes, captadas por um sistema de microfones montado no corpo de um passante. Prêmio CCBB Contemporâneo; Sala A Contemporânea, Centro Cultural Banco do Brasil, Rio de Janeiro, 2016."
+   ],
+   "video": [
+    {
+     "plataforma": "youtube",
+     "id": "sHKTU5eEsR8",
+     "titulo": "Errância, Canal-Arte, 2016"
+    }
+   ],
+   "texto_en": [
+    "Sound installation with loudspeakers and recordings of conversations in bars in Gávea, Lapa, Leblon, Rocinha and Praça Tiradentes, captured by a microphone system worn by a passer-by. CCBB Contemporary Award; Sala A Contemporânea, Centro Cultural Banco do Brasil, Rio de Janeiro, 2016."
+   ],
+   "materiais_en": "Loudspeakers; recordings made with a capture system worn by a passer-by",
+   "dimensoes_en": "Variable dimensions",
+   "local_en": "Sala A Contemporânea, Centro Cultural Banco do Brasil, Rio de Janeiro",
+   "premio": "Prêmio CCBB Contemporâneo, 2015",
+   "premio_en": "CCBB Contemporary Award, 2015",
+   "premio_curto": "Prêmio CCBB Contemporâneo",
+   "premio_curto_en": "CCBB Contemporary Award"
+  },
+  {
+   "id": "praca-sonora",
+   "titulo": "Praça Sonora",
+   "ano": "2015",
+   "ano_num": 2015,
+   "tipo": "intervenção urbana",
+   "materiais": "",
+   "dimensoes": "",
+   "local": "",
+   "texto": [],
+   "pendente": "ficha técnica, texto e registros"
+  },
+  {
+   "id": "sonar",
+   "titulo": "Sonar",
+   "ano": "2013",
+   "ano_num": 2013,
+   "tipo": "exposição",
+   "materiais": "",
+   "dimensoes": "",
+   "local": "Casa de Cultura Laura Alvim, Rio de Janeiro",
+   "exposicao": "sonar",
+   "texto": [
+    "Exposição individual na Casa de Cultura Laura Alvim, Rio de Janeiro, 2013, com curadoria de Glória Ferreira. Reuniu obras sonoras e apresentou pela primeira vez a instalação Turbina."
+   ],
+   "video": [
+    {
+     "plataforma": "youtube",
+     "id": "o4JLWAHv9oM",
+     "titulo": "Sonar"
+    }
+   ],
+   "texto_en": [
+    "Solo exhibition at Casa de Cultura Laura Alvim, Rio de Janeiro, 2013, curated by Glória Ferreira. It brought together sound works and premiered the installation Turbina."
+   ],
+   "local_en": "Casa de Cultura Laura Alvim, Rio de Janeiro"
+  },
+  {
+   "id": "cidade-sonora",
+   "titulo": "A Cidade Sonora",
+   "ano": "2012",
+   "ano_num": 2012,
+   "tipo": "instalação",
+   "materiais": "Orelhões, paisagens sonoras de 15 cidades",
+   "dimensoes": "Dimensões variáveis",
+   "local": "Galeria Funarte, Palácio Gustavo Capanema, Rio de Janeiro",
+   "exposicao": "a-cidade-sonora",
+   "texto": [
+    "Instalação com orelhões dispostos no chão, que reproduzem paisagens sonoras de quinze cidades. Prêmio Projéteis de Arte Contemporânea, Funarte; Galeria Funarte, Palácio Gustavo Capanema, Rio de Janeiro, 2012."
+   ],
+   "video": [
+    {
+     "plataforma": "youtube",
+     "id": "6ghQ7m3ytLM",
+     "titulo": "A Cidade Sonora"
+    }
+   ],
+   "texto_en": [
+    "Installation with public phone booths laid on the floor, playing soundscapes of fifteen cities. Projéteis Contemporary Art Award, Funarte; Galeria Funarte, Palácio Gustavo Capanema, Rio de Janeiro, 2012."
+   ],
+   "materiais_en": "Public phone booths, soundscapes of 15 cities",
+   "dimensoes_en": "Variable dimensions",
+   "local_en": "Galeria Funarte, Palácio Gustavo Capanema, Rio de Janeiro",
+   "links": [
+    {
+     "titulo": "Umbigo Magazine, 2012",
+     "url": "https://umbigomagazine.com/um/2012-09-25/a-cidade-sonora-de-floriano-romano-babilonia-afectiva-segredo-utopia.html"
+    }
+   ],
+   "premio": "Prêmio Projéteis de Arte Contemporânea, Funarte, 2012",
+   "premio_en": "Projéteis Contemporary Art Award, Funarte, 2012",
+   "premio_curto": "Prêmio Projéteis",
+   "premio_curto_en": "Projéteis Award"
+  },
+  {
+   "id": "sapatos-sonoros",
+   "titulo": "Sapatos Sonoros",
+   "ano": "2009–2015",
+   "ano_num": 2011,
+   "tipo": "objeto sonoro",
+   "materiais": "Sapatos pandeiro, sapatos guizo, sapatos chocalho e conchas; materiais variados",
+   "dimensoes": "Dimensões variáveis",
+   "local": "Panorama da Arte Brasileira, MAM São Paulo (2011); performances em aberturas de exposições (2011, 2013, 2015)",
+   "texto": [
+    "Série de sapatos com pandeiros, guizos, chocalhos e conchas, usados em performances. Apresentada no Panorama da Arte Brasileira, MAM São Paulo (2011), e em aberturas de exposições entre 2011 e 2015. Prêmio Interações Estéticas, Funarte, 2009."
+   ],
+   "video": [
+    {
+     "plataforma": "vimeo",
+     "id": "127425686",
+     "titulo": "Sapatos Sonoros"
+    }
+   ],
+   "exposicoes_coletivas": [
+    "aparicao"
+   ],
+   "texto_en": [
+    "Series of shoes fitted with tambourines, bells, rattles and shells, worn in performances. Shown at the Panorama da Arte Brasileira, MAM São Paulo (2011), and at exhibition openings between 2011 and 2015. Interações Estéticas Award, Funarte, 2009."
+   ],
+   "materiais_en": "Tambourine shoes, bell shoes, rattle and shell shoes; mixed materials",
+   "dimensoes_en": "Variable dimensions",
+   "local_en": "Panorama da Arte Brasileira, MAM São Paulo (2011); performances at exhibition openings (2011, 2013, 2015)",
+   "premio": "Prêmio Interações Estéticas, Funarte, 2009",
+   "premio_en": "Interações Estéticas Award, Funarte, 2009",
+   "premio_curto": "Prêmio Interações Estéticas",
+   "premio_curto_en": "Interações Estéticas Award",
+   "colecao": "Coleção Augusto Rodrigues",
+   "colecao_en": "Augusto Rodrigues Collection"
+  },
+  {
+   "id": "guarda-chuva-sonoro",
+   "titulo": "Guarda-Chuva Sonoro",
+   "ano": "2010",
+   "ano_num": 2010,
+   "tipo": "performance",
+   "materiais": "",
+   "dimensoes": "",
+   "local": "",
+   "texto": [],
+   "video": [
+    {
+     "plataforma": "vimeo",
+     "id": "121074505",
+     "titulo": "Guarda-Chuva"
+    }
+   ],
+   "pendente": "ficha técnica e texto"
+  },
+  {
+   "id": "chuveiros-sonoros",
+   "titulo": "Chuveiros Sonoros",
+   "ano": "2008",
+   "ano_num": 2008,
+   "tipo": "objeto sonoro",
+   "materiais": "Chuveiros de aço inoxidável, amplificador, alto-falante e gravações caseiras",
+   "dimensoes": "249 × 70 × 70 cm",
+   "local": "7ª Bienal do Mercosul, Mostra Absurdo, Porto Alegre (2009); Casa de Cultura Laura Alvim (2013)",
+   "colecao": "Museu de Arte Contemporânea de Niterói (aquisição pelo prêmio); Coleção Sérgio Carvalho",
+   "texto": [
+    "Objeto sonoro com chuveiros de aço inoxidável, amplificador e alto-falante, que reproduzem gravações caseiras de cantores anônimos. Prêmio Marcantonio Vilaça, Funarte, 2012; coleção do Museu de Arte Contemporânea de Niterói."
+   ],
+   "soundcloud": "https://soundcloud.com/floriano-romano/chuveiro-sonoro",
+   "exposicoes_extra": [
+    "sonar",
+    "a-pele-do-mundo"
+   ],
+   "texto_en": [
+    "Sound object with stainless-steel showers, amplifier and loudspeaker playing home recordings of anonymous singers. Marcantonio Vilaça Award, Funarte, 2012; collection of the Museu de Arte Contemporânea de Niterói."
+   ],
+   "materiais_en": "Stainless steel showers, amplifier, loudspeaker and home recordings",
+   "local_en": "7th Mercosul Biennial, Mostra Absurdo, Porto Alegre (2009); Casa de Cultura Laura Alvim (2013)",
+   "colecao_en": "Museu de Arte Contemporânea de Niterói (acquired through the award); Sérgio Carvalho Collection",
+   "premio": "Prêmio Marcantonio Vilaça, Funarte, 2012",
+   "premio_en": "Marcantonio Vilaça Award, Funarte, 2012",
+   "premio_curto": "Prêmio Marcantonio Vilaça",
+   "premio_curto_en": "Marcantonio Vilaça Award"
+  },
+  {
+   "id": "chapeu-panoramico",
+   "titulo": "Chapéu Panorâmico",
+   "ano": "2008",
+   "ano_num": 2008,
+   "tipo": "performance",
+   "materiais": "Chapéus com câmeras de vigilância, vídeo em vários canais",
+   "dimensoes": "",
+   "local": "Praia, Rio de Janeiro; MAC Niterói (2009)",
+   "texto": [
+    "Performance com chapéus equipados com câmeras de vigilância, realizada na praia com os mestres de capoeira Garrincha e Feijão e apresentada em vídeo de vários canais no MAC Niterói (2009). Bolsa de Estímulo à Criação Artística, Funarte, 2008."
+   ],
+   "texto_en": [
+    "Performance with hats fitted with surveillance cameras, carried out on the beach with capoeira masters Garrincha and Feijão and shown as a multichannel video at MAC Niterói (2009). Artistic Creation Grant, Funarte, 2008."
+   ],
+   "materiais_en": "Hats with surveillance cameras, multichannel video",
+   "local_en": "Beach, Rio de Janeiro; MAC Niterói (2009)",
+   "premio": "Bolsa de Estímulo à Criação Artística, Funarte, 2008",
+   "premio_en": "Artistic Creation Grant, Funarte, 2008",
+   "premio_curto": "Bolsa Funarte",
+   "premio_curto_en": "Funarte Grant"
+  },
+  {
+   "id": "falante",
+   "titulo": "Falante",
+   "ano": "2007",
+   "ano_num": 2007,
+   "tipo": "performance",
+   "materiais": "Mochila com alto-falante, poema sonoro “Não preste atenção”",
+   "dimensoes": "",
+   "local": "Fortaleza (58º Salão de Abril, menção honrosa) e São Paulo (Futuro do Presente, Itaú Cultural), 2007",
+   "colecao": "Museu de Artes Visuais de Santiago do Chile",
+   "texto": [
+    "Performance com mochila e alto-falante que reproduz o poema sonoro “Não preste atenção”. Apresentada no 58º Salão de Abril, Fortaleza (menção honrosa), e em Futuro do Presente, Itaú Cultural, São Paulo, 2007. O vídeo integra a coleção do Museo de Artes Visuales de Santiago do Chile."
+   ],
+   "video": [
+    {
+     "plataforma": "youtube",
+     "id": "iyMszlJkMLk",
+     "titulo": "Falante, Fortaleza, 2007 — menção honrosa, 58º Salão de Abril"
+    },
+    {
+     "plataforma": "youtube",
+     "id": "gf1hNQA60Wk",
+     "titulo": "Falante, São Paulo, 2007"
+    }
+   ],
+   "texto_en": [
+    "Performance with a backpack and loudspeaker playing the sound poem “Não preste atenção” [Do not pay attention]. Shown at the 58th Salão de Abril, Fortaleza (honourable mention), and in Futuro do Presente, Itaú Cultural, São Paulo, 2007. The video is in the collection of the Museo de Artes Visuales, Santiago, Chile."
+   ],
+   "materiais_en": "Backpack with loudspeaker, sound poem “Não preste atenção” [Do not pay attention]",
+   "local_en": "Fortaleza (58th Salão de Abril, honourable mention) and São Paulo (Futuro do Presente, Itaú Cultural), 2007",
+   "colecao_en": "Museo de Artes Visuales, Santiago, Chile",
+   "premio": "Menção honrosa, 58º Salão de Abril, Fortaleza, 2007",
+   "premio_en": "Honourable mention, 58th Salão de Abril, Fortaleza, 2007",
+   "premio_curto": "Menção honrosa, Salão de Abril",
+   "premio_curto_en": "Honourable mention, Salão de Abril",
+   "links": [
+    {
+     "titulo": "Rui Chaves, em Making It Heard (Bloomsbury, 2019), pp. 49–51",
+     "url": "https://www.bloomsbury.com/us/making-it-heard-9781501344435/"
+    }
+   ],
+   "exposicoes_coletivas": [
+    "media-art-festival-arad"
+   ]
+  },
+  {
+   "id": "radiomochilas",
+   "titulo": "RadioMochilas",
+   "ano": "2007",
+   "ano_num": 2007,
+   "tipo": "rádio",
+   "materiais": "",
+   "dimensoes": "",
+   "local": "",
+   "texto": [],
+   "video": [
+    {
+     "plataforma": "vimeo",
+     "id": "121069132",
+     "titulo": "RadioMochilas"
+    }
+   ],
+   "pendente": "ficha técnica e texto",
+   "radio": {
+    "freq": 2007.5
+   }
+  },
+  {
+   "id": "cruz",
+   "titulo": "Cruz",
+   "ano": "início dos anos 2000",
+   "ano_num": 2002,
+   "tipo": "rádio",
+   "materiais": "Micro-rádio transmissor, trilha sonora; registro em fotografia aérea e vídeo",
+   "dimensoes": "Cruzamento das ruas Imperatriz Leopoldina e Luís de Camões",
+   "local": "Centro do Rio de Janeiro",
+   "texto": [
+    "Transmissão de micro-rádio no cruzamento das ruas Imperatriz Leopoldina e Luís de Camões, no Centro do Rio de Janeiro, registrada em fotografia aérea e vídeo. Início dos anos 2000."
+   ],
+   "radio": {
+    "freq": 2002
+   },
+   "ano_mapa": "anos 2000",
+   "video": [
+    {
+     "plataforma": "youtube",
+     "id": "fdtlYVg-iHE",
+     "titulo": "Cruz"
+    }
+   ],
+   "texto_en": [
+    "Micro-radio broadcast at the crossing of Imperatriz Leopoldina and Luís de Camões streets, in downtown Rio de Janeiro, documented in aerial photography and video. Early 2000s."
+   ],
+   "materiais_en": "Micro-radio transmitter, soundtrack; documented in aerial photograph and video",
+   "dimensoes_en": "Crossing of Rua Imperatriz Leopoldina and Rua Luís de Camões",
+   "local_en": "Downtown Rio de Janeiro"
+  },
+  {
+   "id": "o-inusitado",
+   "titulo": "O Inusitado",
+   "ano": "2002–2004",
+   "ano_num": 2003,
+   "tipo": "rádio",
+   "materiais": "Programa semanal",
+   "dimensoes": "",
+   "local": "Rádio Madame Satã, Lapa, Rio de Janeiro",
+   "texto": [
+    "Programa semanal na Rádio Madame Satã, rádio comunitária da Lapa, Rio de Janeiro, de 2002 a 2004."
+   ],
+   "radio": {
+    "freq": 2003.5
+   },
+   "texto_en": [
+    "Weekly programme on Rádio Madame Satã, a community radio station in Lapa, Rio de Janeiro, from 2002 to 2004."
+   ],
+   "materiais_en": "Weekly radio programme",
+   "local_en": "Rádio Madame Satã, Lapa, Rio de Janeiro"
+  },
+  {
+   "id": "radionovelas",
+   "titulo": "Radionovelas",
+   "ano": "2013",
+   "ano_num": 2013,
+   "tipo": "rádio",
+   "materiais": "Rádios antigos e gravações ficcionais",
+   "dimensoes": "",
+   "local": "Casa de Cultura Laura Alvim, na exposição Sonar",
+   "texto": [
+    "Rádios antigos que reproduzem gravações ficcionais. Apresentados na exposição Sonar, Casa de Cultura Laura Alvim, 2013."
+   ],
+   "soundcloud": "https://soundcloud.com/floriano-romano/radionovela",
+   "radio": {
+    "freq": 2013.5
+   },
+   "exposicao": "sonar",
+   "texto_en": [
+    "Old radios playing fictional recordings. Shown in the exhibition Sonar, Casa de Cultura Laura Alvim, 2013."
+   ],
+   "materiais_en": "Vintage radios and fictional recordings",
+   "local_en": "Casa de Cultura Laura Alvim, in the exhibition Sonar",
+   "colecao": "Coleção Sérgio Carvalho",
+   "colecao_en": "Sérgio Carvalho Collection",
+   "exposicoes_coletivas": [
+    "brasilidade-pos-modernismo"
+   ]
+  },
+  {
+   "id": "a-dama",
+   "titulo": "A Dama",
+   "ano": "2016",
+   "ano_num": 2016,
+   "tipo": "rádio",
+   "materiais": "",
+   "dimensoes": "",
+   "local": "",
+   "texto": [],
+   "soundcloud": "https://soundcloud.com/floriano-romano/a-dama",
+   "pendente": "ficha técnica e texto",
+   "radio": {
+    "freq": 2016.3
+   }
+  },
+  {
+   "id": "motoboy",
+   "titulo": "Motoboy",
+   "ano": "2016",
+   "ano_num": 2016,
+   "tipo": "rádio",
+   "materiais": "",
+   "dimensoes": "",
+   "local": "",
+   "texto": [],
+   "soundcloud": "https://soundcloud.com/floriano-romano/motoboy",
+   "pendente": "ficha técnica e texto",
+   "radio": {
+    "freq": 2016.9
+   }
+  },
+  {
+   "id": "desenhos",
+   "titulo": "Desenhos",
+   "ano": "2007–",
+   "ano_num": 2007,
+   "tipo": "desenho",
+   "materiais": "Fita isolante sobre papel",
+   "dimensoes": "Tamanhos variados (20 × 30, 50 × 40, 40 × 20 cm)",
+   "local": "Casa de Cultura Laura Alvim, na exposição Sonar (2013)",
+   "texto": [
+    "Desenhos em fita isolante sobre papel, em tamanhos variados, realizados desde 2007. Apresentados na exposição Sonar, Casa de Cultura Laura Alvim, 2013."
+   ],
+   "imagens": [
+    {
+     "src": "media/desenhos/desenho-01.jpg",
+     "alt": "Desenho com fita isolante preta sobre papel branco",
+     "credito": "Arquivo do artista"
+    },
+    {
+     "src": "media/desenhos/desenho-02.jpg",
+     "alt": "Desenho com fita isolante preta sobre papel branco",
+     "credito": "Arquivo do artista"
+    },
+    {
+     "src": "media/desenhos/desenho-03.jpg",
+     "alt": "Desenho com fita isolante preta sobre papel branco",
+     "credito": "Arquivo do artista"
+    },
+    {
+     "src": "media/desenhos/desenho-04.jpg",
+     "alt": "Desenho com fita isolante preta sobre papel branco",
+     "credito": "Arquivo do artista"
+    },
+    {
+     "src": "media/desenhos/desenho-05.jpg",
+     "alt": "Desenho com fita isolante preta sobre papel branco",
+     "credito": "Arquivo do artista"
+    },
+    {
+     "src": "media/desenhos/desenho-06.jpg",
+     "alt": "Desenho com fita isolante preta sobre papel branco",
+     "credito": "Arquivo do artista"
+    },
+    {
+     "src": "media/desenhos/desenho-07.jpg",
+     "alt": "Desenho com fita isolante preta sobre papel branco",
+     "credito": "Arquivo do artista"
+    },
+    {
+     "src": "media/desenhos/desenho-08.jpg",
+     "alt": "Desenho com fita isolante preta sobre papel branco",
+     "credito": "Arquivo do artista"
+    }
+   ],
+   "texto_en": [
+    "Electrical-tape drawings on paper, in various sizes, made since 2007. Shown in the exhibition Sonar, Casa de Cultura Laura Alvim, 2013."
+   ],
+   "materiais_en": "Electrical tape on paper",
+   "dimensoes_en": "Various sizes (20 × 30, 50 × 40, 40 × 20 cm)",
+   "local_en": "Casa de Cultura Laura Alvim, in the exhibition Sonar (2013)"
+  },
+  {
+   "id": "cidade-labirinto",
+   "titulo": "Cidade Labirinto",
+   "ano": "2021",
+   "ano_num": 2021,
+   "tipo": "instalação",
+   "materiais": "Tablado número 30: plataforma de madeira pintada, alto-falantes, gravações de rua, máscara de gás com alto-falante; exposição digital e podcast",
+   "dimensoes": "",
+   "local": "Centro Municipal de Arte Hélio Oiticica, Rio de Janeiro (maio de 2021); cidadelabirinto.art (agosto de 2021)",
+   "texto": [
+    "Exposição composta pela instalação Tablado número 30 — plataforma de madeira pintada com alto-falantes, gravações de rua e máscara de gás com alto-falante —, apresentada no Centro Municipal de Arte Hélio Oiticica (maio de 2021), e por uma exposição digital com podcast em cidadelabirinto.art (agosto de 2021)."
+   ],
+   "video": [
+    {
+     "plataforma": "vimeo",
+     "id": "554339789",
+     "titulo": "Tablado número 30 — Stage 30, Centro Municipal de Arte Hélio Oiticica, 2021"
+    }
+   ],
+   "exposicao": "cidade-labirinto",
+   "links": [
+    {
+     "url": "https://www.youtube.com/@cidadelabirintoporfloriano1816",
+     "titulo": "Canal Cidade Labirinto no YouTube"
+    }
+   ],
+   "texto_en": [
+    "Exhibition comprising the installation Tablado número 30 — a painted wooden platform with loudspeakers, street recordings and a gas mask with loudspeaker — shown at the Centro Municipal de Arte Hélio Oiticica (May 2021), and a digital exhibition with podcast at cidadelabirinto.art (August 2021)."
+   ],
+   "materiais_en": "Tablado número 30: painted wooden platform, loudspeakers, street recordings, gas mask with loudspeaker; digital exhibition and podcast",
+   "local_en": "Centro Municipal de Arte Hélio Oiticica, Rio de Janeiro (May 2021); cidadelabirinto.art (August 2021)",
+   "premio": "Centro Municipal de Arte Hélio Oiticica, Prefeitura do Rio de Janeiro, 2021",
+   "premio_en": "Centro Municipal de Arte Hélio Oiticica, City of Rio de Janeiro, 2021",
+   "premio_curto": "Centro Hélio Oiticica",
+   "premio_curto_en": "Centro Hélio Oiticica"
+  },
+  {
+   "id": "cidade-sensivel",
+   "titulo": "Cidade Sensível",
+   "ano": "2021",
+   "ano_num": 2021,
+   "tipo": "rádio",
+   "materiais": "Obra sonora em três partes: Cinelândia, Pedra do Sal e Praça Mauá; podcast",
+   "dimensoes": "",
+   "local": "Rio de Janeiro; gravações de 20 de fevereiro de 2021",
+   "texto": [
+    "Obra sonora em três partes — Cinelândia, Pedra do Sal e Praça Mauá —, gravada no Centro do Rio de Janeiro em 20 de fevereiro de 2021 e publicada como podcast da exposição Cidade Labirinto."
+   ],
+   "radio": {
+    "freq": 2021
+   },
+   "exposicao": "cidade-labirinto",
+   "texto_en": [
+    "Sound work in three parts — Cinelândia, Pedra do Sal and Praça Mauá — recorded in downtown Rio de Janeiro on 20 February 2021 and released as the podcast of the exhibition Cidade Labirinto."
+   ],
+   "materiais_en": "Sound work in three parts: Cinelândia, Pedra do Sal and Praça Mauá; podcast",
+   "local_en": "Rio de Janeiro; recorded on 20 February 2021"
+  },
+  {
+   "id": "espacos-do-ainda",
+   "titulo": "Espaços do Ainda",
+   "ano": "2022–2023",
+   "ano_num": 2022,
+   "tipo": "instalação",
+   "materiais": "Instalação e objeto sonoro, poema sonoro",
+   "dimensoes": "",
+   "local": "Paço Imperial, Rio de Janeiro (2022); Centro Cultural São Paulo (2023)",
+   "texto": [
+    "Exposição coletiva com curadoria de Luiz Cláudio da Costa, com Ana Emerich, Christus Nóbrega, Cristiana Miranda, Leila Danziger, Livia Flores, Patricia Franca-Huchet, Floriano Romano e Rosana Paulino. Paço Imperial, Rio de Janeiro (5 de abril a 26 de junho de 2022), e Centro Cultural São Paulo (2023). Floriano Romano apresentou Histórias Anônimas."
+   ],
+   "materiais_en": "Installation and sound object, sound poem",
+   "local_en": "Paço Imperial, Rio de Janeiro (2022); Centro Cultural São Paulo (2023)",
+   "texto_en": [
+    "Group exhibition curated by Luiz Cláudio da Costa, with Ana Emerich, Christus Nóbrega, Cristiana Miranda, Leila Danziger, Livia Flores, Patricia Franca-Huchet, Floriano Romano and Rosana Paulino. Paço Imperial, Rio de Janeiro (5 April to 26 June 2022), and Centro Cultural São Paulo (2023). Floriano Romano showed Histórias Anônimas."
+   ]
+  },
+  {
+   "id": "poema-tornado",
+   "titulo": "Poema Tornado",
+   "ano": "2020",
+   "ano_num": 2020,
+   "tipo": "instalação",
+   "materiais": "Poema-instalação: escrita, sons e fontes visuais espalhados pela galeria",
+   "dimensoes": "",
+   "local": "Galeria Reserva Cultural, Niterói. Curadoria de Marisa Flórido; coordenação de Vilmar Madruga, EIXO Arte Contemporânea",
+   "texto": [
+    "Poema-instalação com escrita, sons e elementos visuais distribuídos pela galeria. Exposição individual na Galeria Reserva Cultural, Niterói, 2020, com curadoria de Marisa Flórido."
+   ],
+   "exposicao": "poema-tornado",
+   "links": [
+    {
+     "url": "https://www.eixoarte.com/floriano-romano",
+     "titulo": "Texto curatorial de Marisa Flórido"
+    }
+   ],
+   "texto_en": [
+    "Poem-installation with writing, sounds and visual elements spread through the gallery. Solo exhibition at Galeria Reserva Cultural, Niterói, 2020, curated by Marisa Flórido."
+   ],
+   "materiais_en": "Poem-installation: writing, sounds and visual sources spread through the gallery",
+   "local_en": "Galeria Reserva Cultural, Niterói. Curated by Marisa Flórido; coordinated by Vilmar Madruga, EIXO Arte Contemporânea"
+  },
+  {
+   "id": "o-rio-dos-navegantes",
+   "titulo": "O Rio dos Navegantes",
+   "ano": "2019",
+   "ano_num": 2019,
+   "tipo": "instalação",
+   "materiais": "Instalação sonora comissionada",
+   "dimensoes": "",
+   "local": "Museu de Arte do Rio — exposição O Rio dos Navegantes, curadoria de Evandro Salles, 2019–2020",
+   "colecao": "Museu de Arte do Rio",
+   "texto": [
+    "Instalação sonora comissionada pelo Museu de Arte do Rio para a exposição O Rio dos Navegantes (2019–2020), com curadoria de Evandro Salles. Integra o acervo do museu."
+   ],
+   "pendente": "texto do artista sobre a obra",
+   "exposicoes_coletivas": [
+    "o-rio-dos-navegantes"
+   ],
+   "texto_en": [
+    "Sound installation commissioned by the Museu de Arte do Rio for the exhibition O Rio dos Navegantes (2019–2020), curated by Evandro Salles. It is part of the museum's collection."
+   ],
+   "materiais_en": "Commissioned sound installation",
+   "local_en": "Museu de Arte do Rio — exhibition O Rio dos Navegantes, curated by Evandro Salles, 2019–2020",
+   "colecao_en": "Museu de Arte do Rio"
+  },
+  {
+   "id": "nuvem",
+   "titulo": "Nuvem",
+   "ano": "2018",
+   "ano_num": 2018,
+   "tipo": "instalação",
+   "materiais": "Instalação sonora com guarda-chuvas",
+   "dimensoes": "",
+   "local": "Centro Cultural Furnas, Rio de Janeiro",
+   "texto": [
+    "Instalação sonora com guarda-chuvas. Centro Cultural Furnas, Rio de Janeiro, 2018."
+   ],
+   "pendente": "texto e registros",
+   "exposicao": "nuvem",
+   "video": [
+    {
+     "plataforma": "youtube",
+     "id": "HJF3r56K7lU",
+     "titulo": "Nuvem"
+    }
+   ],
+   "texto_en": [
+    "Sound installation with umbrellas. Centro Cultural Furnas, Rio de Janeiro, 2018."
+   ],
+   "materiais_en": "Sound installation with umbrellas",
+   "local_en": "Centro Cultural Furnas, Rio de Janeiro"
+  },
+  {
+   "id": "duas-mulheres",
+   "titulo": "Duas Mulheres",
+   "ano": "2000",
+   "ano_num": 2000,
+   "tipo": "vídeo",
+   "materiais": "",
+   "dimensoes": "",
+   "local": "",
+   "texto": [],
+   "pendente": "ficha técnica e texto",
+   "video": [
+    {
+     "plataforma": "youtube",
+     "id": "xnqE0wEUTnw",
+     "titulo": "Duas Mulheres"
+    }
+   ]
+  },
+  {
+   "id": "microradio",
+   "titulo": "Microrádio",
+   "ano": "2006",
+   "ano_num": 2006,
+   "tipo": "rádio",
+   "materiais": "Vídeo; transmissores caseiros",
+   "dimensoes": "",
+   "local": "",
+   "texto": [
+    "Vídeo e transmissores caseiros, com instruções para a montagem de micro-rádios. 2006."
+   ],
+   "video": [
+    {
+     "plataforma": "youtube",
+     "id": "jOrTbBCmiDQ",
+     "titulo": "Microrádio"
+    }
+   ],
+   "radio": {
+    "freq": 2006.0
+   },
+   "pendente": "ficha técnica e texto",
+   "texto_en": [
+    "Video and home-made transmitters, with instructions for building micro-radios. 2006."
+   ],
+   "materiais_en": "Video; homemade transmitters"
+  },
+  {
+   "id": "radio-lugar",
+   "titulo": "Rádio Lugar",
+   "ano": "2010",
+   "ano_num": 2010,
+   "tipo": "intervenção urbana",
+   "materiais": "MP3 players e alto-falantes costurados sobre sapatos comuns",
+   "dimensoes": "Dimensões variáveis",
+   "local": "Barca Rio–Niterói e Praça XV, Rio de Janeiro",
+   "texto": [
+    "Intervenção com MP3 players e alto-falantes costurados em sapatos comuns, usados por bailarinos na travessia da barca Rio–Niterói e na Praça XV. Projeto EME>>, Conexão Artes Visuais, Funarte, 2010."
+   ],
+   "imagens": [
+    {
+     "src": "media/obras/radio-lugar/radio-lugar-01.jpg",
+     "alt": "Sapatos com MP3 player e alto-falante costurados",
+     "credito": "Rádio Lugar, 2010 · frame do vídeo"
+    },
+    {
+     "src": "media/obras/radio-lugar/radio-lugar-02.jpg",
+     "alt": "Sapatos com MP3 player e alto-falante costurados",
+     "credito": "Rádio Lugar, 2010 · frame do vídeo"
+    }
+   ],
+   "video": [
+    {
+     "plataforma": "youtube",
+     "id": "J3_n6gCZ9Fs",
+     "titulo": "Rádio Lugar — sapatos sonoros na barca"
+    }
+   ],
+   "texto_en": [
+    "Intervention with MP3 players and loudspeakers sewn onto ordinary shoes, worn by dancers on the Rio–Niterói ferry crossing and at Praça XV. Projeto EME>>, Conexão Artes Visuais, Funarte, 2010."
+   ],
+   "materiais_en": "MP3 players and loudspeakers sewn onto ordinary shoes",
+   "dimensoes_en": "Variable dimensions",
+   "local_en": "Rio–Niterói ferry and Praça XV, Rio de Janeiro",
+   "premio": "Conexão Artes Visuais, Funarte — Projeto EME>>, 2010",
+   "premio_en": "Conexão Artes Visuais, Funarte — Projeto EME>>, 2010",
+   "premio_curto": "Conexão Artes Visuais",
+   "premio_curto_en": "Conexão Artes Visuais"
+  },
+  {
+   "id": "o-estrangeiro",
+   "titulo": "O estrangeiro",
+   "ano": "2013",
+   "ano_num": 2013,
+   "tipo": "objeto sonoro",
+   "materiais": "Móvel, alto-falantes, gravações caseiras",
+   "dimensoes": "141 × 82 × 60 cm",
+   "local": "Casa de Cultura Laura Alvim, Rio de Janeiro",
+   "exposicao": "sonar",
+   "texto": [
+    "Móvel de vinte gavetas com alto-falantes que reproduzem gravações caseiras de viagens. Casa de Cultura Laura Alvim, Rio de Janeiro, 2013."
+   ],
+   "imagens": [
+    {
+     "src": "media/obras/o-estrangeiro/o-estrangeiro-01.jpg",
+     "alt": "Móvel antigo com gavetas abertas, na exposição Sonar",
+     "credito": "O estrangeiro, Casa de Cultura Laura Alvim, 2013 · Foto: Mario Grisolli"
+    },
+    {
+     "src": "media/obras/o-estrangeiro/o-estrangeiro-02.jpg",
+     "alt": "Móvel antigo com gavetas abertas, na exposição Sonar",
+     "credito": "O estrangeiro, Casa de Cultura Laura Alvim, 2013 · Foto: Mario Grisolli"
+    }
+   ],
+   "video": [
+    {
+     "plataforma": "youtube",
+     "id": "Ldq8fDLDMY4",
+     "titulo": "O estrangeiro, exposição Sonar"
+    }
+   ],
+   "texto_en": [
+    "Twenty-drawer cabinet with loudspeakers playing home recordings of travels. Casa de Cultura Laura Alvim, Rio de Janeiro, 2013."
+   ],
+   "materiais_en": "Furniture, loudspeakers, home recordings",
+   "local_en": "Casa de Cultura Laura Alvim, Rio de Janeiro"
+  },
+  {
+   "id": "intrasom",
+   "titulo": "Intrasom",
+   "ano": "2011",
+   "ano_num": 2011,
+   "tipo": "intervenção urbana",
+   "materiais": "Quatro ações sonoras no vão livre do museu",
+   "dimensoes": "",
+   "local": "Museu de Arte Moderna do Rio de Janeiro",
+   "texto": [
+    "Quatro ações sonoras no vão livre do Museu de Arte Moderna do Rio de Janeiro, com apoio da Secretaria de Estado de Cultura do Rio de Janeiro, 2011."
+   ],
+   "video": [
+    {
+     "plataforma": "youtube",
+     "id": "zk_5Lc-LXT4",
+     "titulo": "Intrasom, MAM Rio"
+    }
+   ],
+   "pendente": "texto",
+   "texto_en": [
+    "Four sound actions in the open ground floor of the Museu de Arte Moderna do Rio de Janeiro, supported by the Rio de Janeiro State Secretariat of Culture, 2011."
+   ],
+   "materiais_en": "Four sound actions in the museum's open ground floor",
+   "local_en": "Museu de Arte Moderna do Rio de Janeiro",
+   "premio": "Apoio a Projeto Artístico, Secretaria de Estado de Cultura do Rio de Janeiro, 2010",
+   "premio_en": "Artistic Project Support, Rio de Janeiro State Secretariat of Culture, 2010",
+   "premio_curto": "Secretaria de Cultura RJ",
+   "premio_curto_en": "RJ Secretariat of Culture"
+  },
+  {
+   "id": "radio-invisivel",
+   "titulo": "Rádio Invisível",
+   "ano": "",
+   "ano_num": 2010,
+   "tipo": "rádio",
+   "materiais": "",
+   "dimensoes": "",
+   "local": "",
+   "texto": [],
+   "video": [
+    {
+     "plataforma": "youtube",
+     "id": "Z0gp8X4dxow",
+     "titulo": "Rádio Invisível"
+    }
+   ],
+   "pendente": "ano, ficha técnica e texto",
+   "radio": {
+    "freq": 2009.5
+   }
+  }
+ ],
+ "exposicoes": [
+  {
+   "id": "a-pele-do-mundo",
+   "titulo": "A Pele do Mundo",
+   "ano": "2023",
+   "local": "Futuros – Arte e Tecnologia, Rio de Janeiro",
+   "curadoria": "Michael Asbury",
+   "texto": "Exposição individual com curadoria de Michael Asbury. Reuniu a instalação Esquina, a série Esquinas I–X, Turbina, Chuveiros Sonoros, Espreguiçadeiras Sonoras e os vídeos Máscara Sonora e Falante.",
+   "catalogo": "Catálogo bilíngue, Refresco / Futuros, 2023, ISBN 978-65982255-0-6",
+   "texto_en": "Solo exhibition curated by Michael Asbury. It brought together the installation Esquina, the series Esquinas I–X, Turbina, Chuveiros Sonoros, Espreguiçadeiras Sonoras and the videos Máscara Sonora and Falante.",
+   "local_en": "Futuros – Arte e Tecnologia, Rio de Janeiro",
+   "catalogo_en": "Bilingual catalogue, Refresco / Futuros, 2023, ISBN 978-65982255-0-6"
+  },
+  {
+   "id": "cidade-labirinto",
+   "titulo": "Cidade Labirinto",
+   "ano": "2021",
+   "local": "Centro Municipal de Arte Hélio Oiticica, Rio de Janeiro; exposição digital cidadelabirinto.art",
+   "curadoria": "",
+   "texto": "Exposição individual composta por instalação no Centro Municipal de Arte Hélio Oiticica e por exposição digital com podcast.",
+   "texto_en": "Solo exhibition comprising an installation at the Centro Municipal de Arte Hélio Oiticica and a digital exhibition with podcast.",
+   "local_en": "Centro Municipal de Arte Hélio Oiticica, Rio de Janeiro; digital exhibition cidadelabirinto.art"
+  },
+  {
+   "id": "poema-tornado",
+   "titulo": "Poema Tornado",
+   "ano": "2020",
+   "local": "Galeria Reserva Cultural, Niterói",
+   "curadoria": "Marisa Flórido",
+   "texto": "Exposição individual com curadoria de Marisa Flórido.",
+   "texto_en": "Solo exhibition curated by Marisa Flórido.",
+   "local_en": "Galeria Reserva Cultural, Niterói"
+  },
+  {
+   "id": "nuvem",
+   "titulo": "Nuvem",
+   "ano": "2018",
+   "local": "Centro Cultural Furnas, Rio de Janeiro",
+   "curadoria": "",
+   "texto": "Instalação sonora com guarda-chuvas.",
+   "texto_en": "Sound installation with umbrellas.",
+   "local_en": "Centro Cultural Furnas, Rio de Janeiro"
+  },
+  {
+   "id": "muro-de-som",
+   "titulo": "Muro de Som",
+   "ano": "2016",
+   "local": "Parque das Ruínas, Rio de Janeiro",
+   "curadoria": "Guilherme Bueno",
+   "texto": "Exposição individual com curadoria de Guilherme Bueno. Reuniu Muro de Som, Binóculos Sonoros e Espreguiçadeiras Sonoras.",
+   "texto_en": "Solo exhibition curated by Guilherme Bueno. It brought together Muro de Som, Binóculos Sonoros and Espreguiçadeiras Sonoras.",
+   "local_en": "Parque das Ruínas, Rio de Janeiro"
+  },
+  {
+   "id": "errancia",
+   "titulo": "Errância",
+   "ano": "2016",
+   "local": "Centro Cultural Banco do Brasil, Rio de Janeiro — Prêmio CCBB Contemporâneo",
+   "curadoria": "",
+   "texto": "Exposição individual realizada pelo Prêmio CCBB Contemporâneo, na Sala A Contemporânea.",
+   "texto_en": "Solo exhibition held through the CCBB Contemporary Award, in the Sala A Contemporânea.",
+   "local_en": "Centro Cultural Banco do Brasil, Rio de Janeiro — CCBB Contemporary Award"
+  },
+  {
+   "id": "sonar",
+   "titulo": "Sonar",
+   "ano": "2013",
+   "local": "Casa de Cultura Laura Alvim, Rio de Janeiro",
+   "curadoria": "Glória Ferreira",
+   "texto": "Exposição individual com curadoria de Glória Ferreira.",
+   "texto_en": "Solo exhibition curated by Glória Ferreira.",
+   "local_en": "Casa de Cultura Laura Alvim, Rio de Janeiro"
+  },
+  {
+   "id": "a-cidade-sonora",
+   "titulo": "A Cidade Sonora",
+   "ano": "2012",
+   "local": "Galeria Funarte, Palácio Gustavo Capanema, Rio de Janeiro — Prêmio Projéteis, Funarte",
+   "curadoria": "",
+   "texto": "Exposição individual realizada pelo Prêmio Projéteis de Arte Contemporânea, Funarte.",
+   "texto_en": "Solo exhibition held through the Projéteis Contemporary Art Award, Funarte.",
+   "local_en": "Galeria Funarte, Palácio Gustavo Capanema, Rio de Janeiro — Projéteis Award, Funarte"
+  }
+ ],
+ "coletivas": [
+  {
+   "id": "virada-sonica",
+   "ano": "2024",
+   "titulo": "Virada Sônica: a escalada do som na arte contemporânea",
+   "local": "Farol Santander, São Paulo, 5 de julho a 13 de outubro de 2024 — curadoria de Chico Dub",
+   "local_en": "Farol Santander, São Paulo, 5 July to 13 October 2024 — curated by Chico Dub",
+   "titulo_en": "Virada Sônica: The Sonic Turn — The Surge of Sound in Contemporary Art",
+   "destaque": true,
+   "texto": "Exposição internacional de arte sonora, com obras de John Cage a artistas contemporâneos. Floriano Romano apresentou Espreguiçadeiras Sonoras (2016), com o som do mar de Ipanema. Catálogo digital.",
+   "texto_en": "International exhibition of sound art, from John Cage to contemporary artists. Floriano Romano showed Espreguiçadeiras Sonoras (2016), with the sound of the sea at Ipanema. Digital catalogue.",
+   "url": "https://www.farolsantander.com.br/sp/exposicao/virada-sonica"
+  },
+  {
+   "ano": "2023",
+   "titulo": "Espaços do Ainda",
+   "local": "Centro Cultural São Paulo — curadoria de Luiz Cláudio da Costa",
+   "local_en": "Centro Cultural São Paulo — curated by Luiz Cláudio da Costa",
+   "id": "espacos-do-ainda-2023"
+  },
+  {
+   "ano": "2021–2022",
+   "titulo": "Brasilidade Pós-Modernismo 1922–2022",
+   "local": "Centro Cultural Banco do Brasil: Rio de Janeiro, São Paulo, Brasília e Belo Horizonte — curadoria de Tereza de Arruda",
+   "local_en": "Centro Cultural Banco do Brasil: Rio de Janeiro, São Paulo, Brasília and Belo Horizonte — curated by Tereza de Arruda",
+   "id": "brasilidade-pos-modernismo",
+   "destaque": true,
+   "texto": "Exposição coletiva pelo centenário da Semana de Arte Moderna de 1922, com 51 artistas, entre eles Adriana Varejão, Cildo Meireles, Ernesto Neto, Lenora de Barros, Mira Schendel, Rosana Paulino e Tunga. Floriano Romano participou com Radionovelas (Coleção Sérgio Carvalho), no núcleo Estética. Rio de Janeiro, 1º de setembro a 22 de novembro de 2021; São Paulo, 15 de dezembro de 2021 a 7 de março de 2022; Brasília, 5 de abril a 5 de junho de 2022; Belo Horizonte, 29 de junho a 19 de setembro de 2022. Catálogo bilíngue.",
+   "texto_en": "Group exhibition for the centenary of the 1922 Modern Art Week, with 51 artists, including Adriana Varejão, Cildo Meireles, Ernesto Neto, Lenora de Barros, Mira Schendel, Rosana Paulino and Tunga. Floriano Romano took part with Radionovelas (Sérgio Carvalho Collection), in the Aesthetics section. Rio de Janeiro, 1 September to 22 November 2021; São Paulo, 15 December 2021 to 7 March 2022; Brasília, 5 April to 5 June 2022; Belo Horizonte, 29 June to 19 September 2022. Bilingual catalogue.",
+   "titulo_en": "Brasilidade Pós-Modernismo [Postmodernism Brazilianness] 1922–2022"
+  },
+  {
+   "ano": "2022",
+   "titulo": "Espaços do Ainda",
+   "local": "Paço Imperial, Rio de Janeiro — curadoria de Luiz Cláudio da Costa",
+   "local_en": "Paço Imperial, Rio de Janeiro — curated by Luiz Cláudio da Costa",
+   "id": "espacos-do-ainda-2022"
+  },
+  {
+   "ano": "2022",
+   "titulo": "Falante, performance",
+   "local": "Sesc Flamengo, Rio de Janeiro",
+   "titulo_en": "Falante, performance",
+   "local_en": "Sesc Flamengo, Rio de Janeiro"
+  },
+  {
+   "ano": "2020",
+   "titulo": "Até onde a vista alcança",
+   "local": "Galeria Athena Contemporânea, Rio de Janeiro",
+   "local_en": "Galeria Athena Contemporânea, Rio de Janeiro"
+  },
+  {
+   "ano": "2019",
+   "titulo": "O Rio dos Navegantes",
+   "local": "Museu de Arte do Rio, maio de 2019 a maio de 2020. Concepção e curadoria de Evandro Salles",
+   "id": "o-rio-dos-navegantes",
+   "texto": "Exposição coletiva sobre a história do Rio de Janeiro como cidade portuária.",
+   "video": {
+    "plataforma": "youtube",
+    "id": "r_2CfyHtPrg",
+    "titulo": "O Rio dos Navegantes, Museu de Arte do Rio"
+   },
+   "texto_en": "Group exhibition on the history of Rio de Janeiro as a port city.",
+   "local_en": "Museu de Arte do Rio, May 2019 to May 2020. Conceived and curated by Evandro Salles"
+  },
+  {
+   "ano": "2019",
+   "titulo": "SomaRumor, Seminário Internacional de Arte Sonora",
+   "local": "Rio de Janeiro",
+   "titulo_en": "SomaRumor, International Sound Art Seminar",
+   "local_en": "Rio de Janeiro"
+  },
+  {
+   "ano": "2018",
+   "titulo": "Arte pra Sentir",
+   "local": "Caixa Cultural Brasília (16 de outubro a 23 de dezembro de 2018) e Caixa Cultural São Paulo. Curadoria de Isabel Portella",
+   "id": "arte-pra-sentir",
+   "texto": "Exposição coletiva com obras voltadas a outros sentidos além da visão.",
+   "video": {
+    "plataforma": "youtube",
+    "id": "07QevmSq3zs",
+    "titulo": "Exposição Arte pra Sentir, Caixa Cultural Brasília, 2018"
+   },
+   "texto_en": "Group exhibition of works addressing senses other than sight.",
+   "local_en": "Caixa Cultural Brasília (16 October to 23 December 2018) and Caixa Cultural São Paulo. Curated by Isabel Portella"
+  },
+  {
+   "ano": "2018",
+   "titulo": "Corpo de Som, com Helen Cole e Alex Bradley — Festival Panorama",
+   "local": "Centro Municipal de Arte Hélio Oiticica, Rio de Janeiro — Festival Panorama, 3 a 24 de novembro de 2018",
+   "id": "corpo-de-som",
+   "texto": "Exposição coletiva sobre o corpo e o som.",
+   "video": {
+    "plataforma": "youtube",
+    "id": "Nm4-9ng06YE",
+    "titulo": "Panorama 2018 — Corpo de Som: Helen Cole e Floriano Romano"
+   },
+   "texto_en": "Group exhibition on the body and sound.",
+   "local_en": "Centro Municipal de Arte Hélio Oiticica, Rio de Janeiro — Panorama Festival, 3–24 November 2018",
+   "titulo_en": "Corpo de Som [Body of Sound], with Helen Cole and Alex Bradley — Panorama Festival"
+  },
+  {
+   "ano": "2017",
+   "titulo": "Intervenções Bradesco ArtRio",
+   "local": "Museu de Arte Moderna do Rio de Janeiro",
+   "local_en": "Museu de Arte Moderna do Rio de Janeiro"
+  },
+  {
+   "ano": "2017",
+   "titulo": "Contraponto, Coleção Sérgio Carvalho",
+   "local": "Museu Nacional de Brasília",
+   "titulo_en": "Contraponto, Sérgio Carvalho Collection",
+   "local_en": "Museu Nacional, Brasília"
+  },
+  {
+   "ano": "2017",
+   "titulo": "Media Art Festival Arad, 4ª edição — CINEMA",
+   "local": "Cinema Arta e Museu de Arte de Arad, Romênia, 8 de setembro a 1º de outubro de 2017 — curadoria de Călin Man e Ileana Selejan",
+   "local_en": "Arta Cinema and Arad Art Museum, Romania, 8 September to 1 October 2017 — curated by Călin Man and Ileana Selejan",
+   "id": "media-art-festival-arad",
+   "destaque": true,
+   "titulo_en": "Media Art Festival Arad, 4th edition — CINEMA",
+   "texto": "Festival internacional de arte e mídia. Falante (2007, 7 min 53 s) integrou o programa de vídeos continental drift.",
+   "texto_en": "International media art festival. Falante (2007, 7 min 53 s) was part of the continental drift screening programme.",
+   "url": "https://mafa.ro/MAF/CINEMA/indexCINEMA.html"
+  },
+  {
+   "ano": "2016",
+   "titulo": "Paquetá Experimenta",
+   "local": "Casa de Artes de Paquetá, Ilha de Paquetá, Rio de Janeiro — 21 de maio a 25 de junho de 2016. Curadoria de Ivair Reinaldim",
+   "id": "paqueta-experimenta",
+   "texto": "Exposição coletiva com obras realizadas a partir de uma imersão na Ilha de Paquetá.",
+   "video": {
+    "plataforma": "youtube",
+    "id": "ydrchMI48-E",
+    "titulo": "Paquetá Experimenta Arte Contemporânea, 2016"
+   },
+   "texto_en": "Group exhibition of works made during an immersion on Paquetá Island.",
+   "local_en": "Casa de Artes de Paquetá, Paquetá Island, Rio de Janeiro — 21 May to 25 June 2016. Curated by Ivair Reinaldim"
+  },
+  {
+   "ano": "2015",
+   "titulo": "Permanências e Destruições",
+   "local": "Antigo Hotel Balneário Sete de Setembro, hoje Colégio Brasileiro de Altos Estudos da UFRJ, Rio de Janeiro — 17 a 30 de janeiro de 2015. Curadoria de João Paulo Quintella",
+   "id": "permanencias-e-destruicoes",
+   "texto": "Exposição coletiva num antigo hotel de 1922.",
+   "video": {
+    "plataforma": "youtube",
+    "id": "RxDZoHMGIUg",
+    "titulo": "Permanências e Destruições — Hotel Sete de Setembro, Canal-Arte, 2015"
+   },
+   "texto_en": "Group exhibition in a former hotel from 1922.",
+   "local_en": "Former Hotel Balneário Sete de Setembro, now Colégio Brasileiro de Altos Estudos, UFRJ, Rio de Janeiro — 17–30 January 2015. Curated by João Paulo Quintella"
+  },
+  {
+   "ano": "2015",
+   "titulo": "TRIO Bienal — Forma e Matéria: Limites do Tridimensional em Campos Expandidos",
+   "local": "Centro Cultural Banco do Brasil, Rio de Janeiro. Curadoria de Marcus de Lontra",
+   "id": "trio-bienal",
+   "texto": "Primeira bienal do Rio de Janeiro dedicada à arte tridimensional.",
+   "video": {
+    "plataforma": "youtube",
+    "id": "lZtNcNBo3hE",
+    "titulo": "TRIO Bienal, CCBB Rio, Canal-Arte, 2015"
+   },
+   "texto_en": "The first biennial in Rio de Janeiro devoted to three-dimensional art.",
+   "local_en": "Centro Cultural Banco do Brasil, Rio de Janeiro. Curated by Marcus de Lontra",
+   "titulo_en": "TRIO Biennial — Forma e Matéria: the limits of the three-dimensional in expanded fields"
+  },
+  {
+   "ano": "2015",
+   "titulo": "Happenings, performance com Máscara Sonora",
+   "local": "Casa França-Brasil, Rio de Janeiro",
+   "titulo_en": "Happenings, performance with Máscara Sonora",
+   "local_en": "Casa França-Brasil, Rio de Janeiro"
+  },
+  {
+   "ano": "2015",
+   "titulo": "Aparição",
+   "local": "Caixa Cultural Rio de Janeiro. Curadoria de Fernanda Lopes. Performance com Sapatos Sonoros na abertura",
+   "id": "aparicao",
+   "texto": "Exposição coletiva com dezessete artistas, dedicada à escultura.",
+   "video": {
+    "plataforma": "youtube",
+    "id": "tuRi-Cn6Kv0",
+    "titulo": "Aparição, Caixa Cultural Rio, Canal-Arte, 2015"
+   },
+   "texto_en": "Group exhibition of seventeen artists devoted to sculpture.",
+   "local_en": "Caixa Cultural Rio de Janeiro. Curated by Fernanda Lopes. Performance with Sapatos Sonoros at the opening"
+  },
+  {
+   "ano": "2012",
+   "titulo": "Alternative Orders, a Glimpse of Brazilian Art",
+   "local": "Akershus Kunstsenter, Lillestrøm, Noruega",
+   "local_en": "Akershus Kunstsenter, Lillestrøm, Norway"
+  },
+  {
+   "ano": "2012",
+   "titulo": "SOUNDWORKS",
+   "local": "Institute of Contemporary Arts (ICA), Londres, 19 de junho a 16 de setembro de 2012",
+   "local_en": "Institute of Contemporary Arts (ICA), London, 19 June to 16 September 2012",
+   "id": "soundworks-ica",
+   "destaque": true,
+   "titulo_en": "SOUNDWORKS",
+   "texto": "Projeto do ICA apresentado junto à exposição Days, de Bruce Nauman: mais de cem artistas internacionais, convidados pelo ICA e por instituições de vários países, criaram obras sonoras a partir de Days, reunidas num site e nas galerias. Floriano Romano participou com um poema sonoro.",
+   "texto_en": "ICA project presented alongside Bruce Nauman's exhibition Days: more than one hundred international artists, invited by the ICA and by institutions in several countries, made sound works in response to Days, gathered on a website and in the galleries. Floriano Romano took part with a sound poem.",
+   "url": "https://www.e-flux.com/announcements/34042/bruce-nauman-s-days-and-soundworks"
+  },
+  {
+   "ano": "2012",
+   "titulo": "Nuestro Sitio",
+   "local": "Museo de Artes Visuales, Santiago do Chile",
+   "local_en": "Museo de Artes Visuales, Santiago, Chile"
+  },
+  {
+   "ano": "2011",
+   "titulo": "Panorama da Arte Brasileira, Sapatos Sonoros",
+   "local": "Museu de Arte Moderna de São Paulo",
+   "titulo_en": "Panorama of Brazilian Art, Sapatos Sonoros",
+   "local_en": "Museu de Arte Moderna de São Paulo"
+  },
+  {
+   "ano": "2011",
+   "titulo": "Vozes Diferenciais, Falante",
+   "local": "Centro Provincial de Diseño y Oficios, Havana, Cuba",
+   "local_en": "Centro Provincial de Diseño y Oficios, Havana, Cuba"
+  },
+  {
+   "ano": "2011",
+   "titulo": "Intrasom, quatro ações sonoras",
+   "local": "Museu de Arte Moderna do Rio de Janeiro",
+   "titulo_en": "Intrasom, four sound actions",
+   "local_en": "Museu de Arte Moderna do Rio de Janeiro"
+  },
+  {
+   "ano": "2010",
+   "titulo": "Esculturas Sonoras Urbanas, Circuito Interações Estéticas",
+   "local": "São Paulo, Recife e Belo Horizonte",
+   "titulo_en": "Urban Sound Sculptures, Interações Estéticas circuit",
+   "local_en": "São Paulo, Recife and Belo Horizonte"
+  },
+  {
+   "ano": "2009",
+   "titulo": "7ª Bienal do Mercosul — Chuveiros Sonoros (Mostra Absurdo) e Radiovisual",
+   "local": "Porto Alegre",
+   "titulo_en": "7th Mercosul Biennial — Chuveiros Sonoros (Mostra Absurdo) and Radiovisual",
+   "local_en": "Porto Alegre"
+  },
+  {
+   "ano": "2009",
+   "titulo": "Chapéu Panorâmico",
+   "local": "Museu de Arte Contemporânea de Niterói",
+   "local_en": "Museu de Arte Contemporânea de Niterói"
+  },
+  {
+   "ano": "2007",
+   "titulo": "58º Salão de Abril, Falante — menção honrosa",
+   "local": "Fortaleza",
+   "titulo_en": "58th Salão de Abril, Falante — honourable mention",
+   "local_en": "Fortaleza"
+  },
+  {
+   "ano": "2007",
+   "titulo": "Futuro do Presente",
+   "local": "Itaú Cultural, São Paulo",
+   "local_en": "Itaú Cultural, São Paulo"
+  },
+  {
+   "ano": "2006",
+   "titulo": "Paradoxos, Rumos Itaú Cultural",
+   "local": "Paço Imperial, Rio de Janeiro, e São Paulo",
+   "titulo_en": "Paradoxos, Rumos Itaú Cultural",
+   "local_en": "Paço Imperial, Rio de Janeiro, and São Paulo"
+  },
+  {
+   "ano": "2006",
+   "titulo": "Conversations",
+   "local": "SKUC Gallery, Liubliana, Eslovênia",
+   "local_en": "SKUC Gallery, Ljubljana, Slovenia"
+  },
+  {
+   "ano": "2005",
+   "titulo": "Verbo",
+   "local": "Galeria Vermelho, São Paulo",
+   "local_en": "Galeria Vermelho, São Paulo"
+  },
+  {
+   "ano": "2005",
+   "titulo": "Abre-Alas",
+   "local": "A Gentil Carioca, Rio de Janeiro",
+   "local_en": "A Gentil Carioca, Rio de Janeiro"
+  }
+ ],
+ "textos_sobre": [
+  {
+   "autor": "Michael Asbury",
+   "titulo": "Floriano Romano: Esquina e outras intersecções",
+   "fonte": "A Pele do Mundo, catálogo, Refresco / Futuros",
+   "ano": "2023",
+   "url": "https://ualresearchonline.arts.ac.uk/id/eprint/21817/1/Asbury%2C%20M%20Floriano%20Romano%20-%20A%20Pele%20do%20Mundo.pdf",
+   "destaque": true
+  },
+  {
+   "autor": "Rui Chaves",
+   "titulo": "Making Oneself Heard in Public, through Art and in Sound-Based Scholarship",
+   "fonte": "Em Rui Chaves e Fernando Iazzetta (org.), Making It Heard: A History of Brazilian Sound Art. Nova York: Bloomsbury Academic, 2019, cap. 2, pp. 43–68 (sobre Falante, pp. 49–51)",
+   "ano": "2019",
+   "url": "https://www.bloomsbury.com/us/making-it-heard-9781501344435/",
+   "destaque": true
+  },
+  {
+   "autor": "Neide Marcondes e Nara Silvia Martins",
+   "titulo": "Caminhos da escuta e da plasticidade no repertório artístico de Floriano Romano e Gersony Silva",
+   "fonte": "Revista Estúdio, v. 11, n. 33, pp. 20–30",
+   "ano": "2021",
+   "url": "https://scielo.pt/pdf/est/v12n33/1647-6158-est-12-33-20.pdf"
+  },
+  {
+   "autor": "Tereza de Arruda (curadoria)",
+   "titulo": "Brasilidade Pós-Modernismo",
+   "fonte": "catálogo da exposição, Centro Cultural Banco do Brasil, 2021–2022 (com Radionovelas)",
+   "ano": "2021",
+   "url": "",
+   "destaque": true
+  },
+  {
+   "autor": "Prêmio PIPA",
+   "titulo": "“Cidade Labirinto”: Floriano Romano explora o som do Rio em mostra totalmente digital",
+   "fonte": "premiopipa.com, 24 de agosto",
+   "ano": "2021",
+   "url": "https://www.premiopipa.com/2021/08/cidade-labirinto-floriano-romano-explora-o-som-do-rio-em-mostra-totalmente-digital/"
+  },
+  {
+   "autor": "Bolsa de Arte — O Paralelo",
+   "titulo": "Exposição virtual de Floriano Romano",
+   "fonte": "bolsadearte.com, sobre Cidade Labirinto",
+   "ano": "2021",
+   "url": "https://www.bolsadearte.com/oparalelo/exposicao-virtual-de-floriano-romano"
+  },
+  {
+   "autor": "Marisa Flórido",
+   "titulo": "Poema Tornado",
+   "fonte": "texto curatorial, Galeria Reserva Cultural, Niterói",
+   "ano": "2020",
+   "url": "https://www.eixoarte.com/floriano-romano",
+   "destaque": true
+  },
+  {
+   "autor": "Guilherme Bueno",
+   "titulo": "Muro de Som",
+   "fonte": "catálogo, Centro Cultural Municipal Parque das Ruínas; reeditado em Cidade Labirinto (2021)",
+   "ano": "2016",
+   "url": "",
+   "destaque": true
+  },
+  {
+   "autor": "João Paulo Quintella",
+   "titulo": "Corpo impulso",
+   "fonte": "Errância, Prêmio CCBB Contemporâneo; reeditado em Cidade Labirinto (2021)",
+   "ano": "2016",
+   "url": "",
+   "destaque": true
+  },
+  {
+   "autor": "Luisa Duarte",
+   "titulo": "Desorientação afetiva pela noite",
+   "fonte": "O Globo",
+   "ano": "2016",
+   "url": "",
+   "destaque": true
+  },
+  {
+   "autor": "João Paulo Quintella (curadoria)",
+   "titulo": "Permanências e Destruições",
+   "fonte": "catálogo da exposição, vários autores",
+   "ano": "2015",
+   "url": "https://www.academia.edu/40573064/Catalogo_da_exposicao_Permanencias_e_Destruicoes_varios_autores_Curadoria_Joao_Paulo_Quintella"
+  },
+  {
+   "autor": "Fernanda Lopes",
+   "titulo": "Aparição",
+   "fonte": "texto curatorial, Caixa Cultural Rio de Janeiro",
+   "ano": "2015",
+   "url": "https://www.academia.edu/40637894/EXPOSICAO_APARI%C3%87%C3%83O_TEXTO_E_CURADORIA_POR_FERNANDA_LOPES"
+  },
+  {
+   "autor": "Glória Ferreira",
+   "titulo": "Sonar",
+   "fonte": "catálogo, Casa de Cultura Laura Alvim; reeditado em Cidade Labirinto (2021)",
+   "ano": "2013",
+   "url": "https://www.academia.edu/40573060/Catalogo_da_Exposicao_SONAR_curadoria_Gloria_Ferreira",
+   "destaque": true
+  },
+  {
+   "autor": "Luisa Duarte",
+   "titulo": "Em alto e bom som",
+   "fonte": "O Globo, 16 de dezembro",
+   "ano": "2013",
+   "url": "https://www.academia.edu/40573061/Em_alto_e_bom_som_Luisa_Duarte"
+  },
+  {
+   "autor": "Bolsa de Arte — O Paralelo",
+   "titulo": "A arte sonora de Floriano Romano",
+   "fonte": "bolsadearte.com, sobre Sonar",
+   "ano": "2013",
+   "url": "https://www.bolsadearte.com/oparalelo/a-arte-sonora-de-floriano-romano"
+  },
+  {
+   "autor": "Jorge Emanuel Espinho",
+   "titulo": "A Cidade Sonora de Floriano Romano: Babilónia afectiva, segredo, utopia",
+   "fonte": "Umbigo Magazine, Lisboa",
+   "ano": "2012",
+   "url": "https://umbigomagazine.com/um/2012-09-25/a-cidade-sonora-de-floriano-romano-babilonia-afectiva-segredo-utopia.html"
+  },
+  {
+   "autor": "Brandon LaBelle",
+   "titulo": "Acoustic Territories: Sound, Culture and Everyday Life",
+   "fonte": "Continuum, pp. 104–105 (sobre Falante)",
+   "ano": "2010",
+   "url": "",
+   "destaque": true
+  },
+  {
+   "autor": "Prêmio PIPA",
+   "titulo": "Romano — página do artista",
+   "fonte": "premiopipa.com, artista indicado em 2010",
+   "ano": "2010",
+   "url": "https://www.premiopipa.com/pag/artistas/romano/"
+  },
+  {
+   "autor": "Guilherme Bueno",
+   "titulo": "O homem com um chapéu e quatro câmeras na cabeça",
+   "fonte": "Floriano Romano: Chapéu Panorâmico, MAC Niterói",
+   "ano": "2009",
+   "url": ""
+  },
+  {
+   "autor": "7ª Bienal do Mercosul (curadoria geral: Victoria Noorthoorn)",
+   "titulo": "Grito e Escuta",
+   "fonte": "catálogo",
+   "ano": "2009",
+   "url": "https://www.academia.edu/40626526/Catalogo_7_Bienal_mercosul_GRITO_E_ESCUTA"
+  },
+  {
+   "autor": "nendu; — arquivo da arte sonora no Brasil",
+   "titulo": "Floriano Romano",
+   "fonte": "Projeto de pesquisa de Rui Chaves, 2016–2022",
+   "ano": "",
+   "url": "https://www.nendu.net/?p=113&lang=pt"
+  },
+  {
+   "autor": "O Globo",
+   "titulo": "Projeto de residência artística une brasileiros e holandeses no Rio",
+   "fonte": "O Globo, Cultura — sobre a residência HOBRA",
+   "ano": "",
+   "url": "https://oglobo.globo.com/cultura/teatro/projeto-de-residencia-artistica-une-brasileiros-holandeses-no-rio-19819389"
+  },
+  {
+   "autor": "Mauro Sá Rego Costa, Adriana Gomes Ribeiro e Pedro de Albuquerque Araujo",
+   "titulo": "Radio Art in Brazil: A Panorama of Artists and Productions",
+   "fonte": "Research Catalogue",
+   "ano": "",
+   "url": "https://www.researchcatalogue.net/view/863825/863847"
+  },
+  {
+   "autor": "Marisa Flórido Cesar",
+   "titulo": "O eco da distância",
+   "fonte": "",
+   "ano": "",
+   "url": "https://www.academia.edu/40573062/O_eco_da_dist%C3%A2ncia_Marisa_Florido_Cesar"
+  },
+  {
+   "autor": "Nani Rubin",
+   "titulo": "Os deslocamentos do som",
+   "fonte": "",
+   "ano": "",
+   "url": "https://www.academia.edu/40573063/Os_deslocamentos_do_som_Nani_Rubin"
+  },
+  {
+   "autor": "Luisa Duarte e Marisa Flórido Cesar",
+   "titulo": "Arte e música",
+   "fonte": "",
+   "ano": "",
+   "url": "https://www.academia.edu/40584382/Arte_e_m%C3%BAsica_Luisa_Duarte_e_Marisa_Florido_Cesar"
+  }
+ ],
+ "textos_do_artista": [
+  {
+   "titulo": "Cidade Labirinto",
+   "fonte": "catálogo e exposição digital, Rio de Janeiro",
+   "ano": "2021",
+   "url": ""
+  },
+  {
+   "titulo": "Campos Autônomos",
+   "fonte": "Poiésis, Universidade Federal Fluminense",
+   "ano": "2018",
+   "url": "https://periodicos.uff.br/poiesis/article/download/24672/14321/87216"
+  },
+  {
+   "titulo": "On Air",
+   "fonte": "Sites of Sound #2: of architecture and the ear, Errant Bodies Press, pp. 241–243",
+   "ano": "2011",
+   "url": "https://www.academia.edu/40573068/Art_on_air_Published_by_Brandon_Labelle_Author_Floriano_Romano"
+  },
+  {
+   "titulo": "Entrevista a Glória Ferreira",
+   "fonte": "Cidade Sonora, catálogo, Funarte",
+   "ano": "2013",
+   "url": ""
+  },
+  {
+   "titulo": "Da cidade como labirinto",
+   "fonte": "",
+   "ano": "",
+   "url": "https://www.academia.edu/40572909/Da_cidade_como_labirinto_Floriano_Romano"
+  },
+  {
+   "titulo": "O Labirinto",
+   "fonte": "",
+   "ano": "",
+   "url": "https://www.academia.edu/40572905/O_Labirinto_Floriano_Romano"
+  },
+  {
+   "titulo": "Do caminhar",
+   "fonte": "",
+   "ano": "",
+   "url": "https://www.academia.edu/40572910/Do_caminhar_Floriano_Romano"
+  },
+  {
+   "titulo": "Histórias Anônimas no Arquivo Nacional",
+   "fonte": "",
+   "ano": "",
+   "url": "https://www.academia.edu/40572911/Hist%C3%B3rias_An%C3%B4nimas_no_Arquivo_Nacional_Floriano_Romano"
+  },
+  {
+   "titulo": "Cabaret Voltaire",
+   "fonte": "resenha",
+   "ano": "",
+   "url": "https://www.academia.edu/40573065/Cabaret_voltaire_resenha_por_Floriano_Romano"
+  },
+  {
+   "titulo": "Lance 36",
+   "fonte": "",
+   "ano": "",
+   "url": "https://www.academia.edu/40572907/Lance_36_final_Floriano_Romano"
+  }
+ ],
+ "entrevistas": [
+  {
+   "titulo": "Floriano Romano | Arte e Precariedade",
+   "fonte": "Arte e Precariedade",
+   "ano": "2022",
+   "video": {
+    "plataforma": "youtube",
+    "id": "BxbVhyRKplk",
+    "titulo": "Floriano Romano, Arte e Precariedade, 2022"
+   }
+  },
+  {
+   "titulo": "Entrevista com Floriano Romano",
+   "fonte": "EBA MediaLab, Escola de Belas Artes da UFRJ",
+   "ano": "2016",
+   "video": {
+    "plataforma": "youtube",
+    "id": "7s7CWT4EBCk",
+    "titulo": "Entrevista com Floriano Romano, EBA MediaLab, 2016"
+   }
+  },
+  {
+   "titulo": "Romano, artista indicado ao Prêmio PIPA 2010",
+   "fonte": "Prêmio PIPA — Prêmio Investidor Profissional de Arte",
+   "ano": "2010",
+   "video": {
+    "plataforma": "youtube",
+    "id": "Eg9oF7KJEwg",
+    "titulo": "Romano, artista indicado ao Prêmio PIPA 2010"
+   }
+  }
+ ],
+ "perfil_academia": "https://ufrj.academia.edu/FlorianoRomano"
+}
