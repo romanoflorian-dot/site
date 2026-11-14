@@ -595,7 +595,10 @@ def build_textos(c):
                                "fonte": ", ".join(v for v in (m["jornal"], m.get("caderno", ""), tr(m, "data", c.lang) if m.get("data") != m["ano"] else "") if v)},
                               ident=id_materia(m)) for m in luisa]
     itens = [item_texto(x) for x in dest]
-    destaques = "".join(itens[:1] + luisa_itens + itens[1:])
+    # Tereza de Arruda logo depois de Luisa Duarte (pedido do artista)
+    tz = [i for i, x in enumerate(dest) if x["autor"].startswith("Tereza de Arruda")]
+    tereza = [itens.pop(i) for i in reversed(tz)]
+    destaques = "".join(itens[:1] + luisa_itens + tereza + itens[1:])
     resto = sorted((x for x in DATA["textos_sobre"] if not x.get("destaque")), key=prio)  # estável: mantém a ordem por ano
     sobre = "".join(item_texto(x) for x in resto)
     imprensa = "".join(item_imprensa(m, c) for m in sorted((m for m in DATA.get("imprensa", []) if m.get("autor") != "Luisa Duarte"),
