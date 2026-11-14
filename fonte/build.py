@@ -25,6 +25,7 @@ if _IMGS.exists():
 EXPOS = {x["id"]: x for x in DATA["exposicoes"]}
 COLS = {c["id"]: c for c in DATA["coletivas"] if c.get("id")}
 ANO_ATUAL = "2026"
+CONTATO = "romano.art@gmail.com"
 e = html.escape
 
 # ----------------------------------------------------------------- textos da interface
@@ -682,7 +683,7 @@ def build_sobre(c):
       <h2 class="sub">Instagram</h2>
       <p><a href="https://www.instagram.com/florianoromano/" rel="noopener">@florianoromano</a></p>
       <h2 class="sub">{t['contato']}</h2>
-      <p class="dado" data-contato>{t['contato_txt']}</p>
+      <p class="dado" data-contato><a href="mailto:{CONTATO}">{CONTATO}</a></p>
     </div>
   </div>
 </section>"""
