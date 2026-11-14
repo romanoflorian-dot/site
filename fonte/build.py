@@ -542,14 +542,15 @@ def build_exposicoes(c):
 
 
 # ----------------------------------------------------------------- textos
-def item_texto(x, com_autor=True):
+def item_texto(x, com_autor=True, ident=""):
     titulo = e(x["titulo"])
     if x.get("url"):
         titulo = f'<a href="{e(x["url"])}" rel="noopener">{titulo}</a>'
     autor = f'<span class="autor">{e(x["autor"])}</span>' if com_autor else ""
     a = f'<span class="dado">{e(x["ano"])}</span>' if x.get("ano") else '<span class="dado">—</span>'
     fonte = f'<span class="dado fonte">{e(x["fonte"])}</span>' if x.get("fonte") else ""
-    return f'<li>{a}<div>{autor}<span class="nome">{titulo}</span>{fonte}</div></li>'
+    li = f'<li id="{ident}">' if ident else "<li>"
+    return f'{li}{a}<div>{autor}<span class="nome">{titulo}</span>{fonte}</div></li>'
 
 
 def item_imprensa(m, c):
@@ -588,10 +589,17 @@ def build_textos(c):
         return 1
     dest = sorted((x for x in DATA["textos_sobre"] if x.get("destaque")),
                   key=lambda x: next((i for i, k in enumerate(ordem_d) if x["titulo"].startswith(k)), 99))
-    destaques = "".join(item_texto(x) for x in dest)
+    # Michael Asbury e Luisa Duarte à frente (pedido do artista); as críticas de Luisa no O Globo sobem para os destaques
+    luisa = sorted((m for m in DATA.get("imprensa", []) if m.get("autor") == "Luisa Duarte"), key=lambda m: -int(m["ano"] or 0))
+    luisa_itens = [item_texto({"autor": m["autor"], "titulo": m["titulo"], "url": m.get("url", ""), "ano": m["ano"],
+                               "fonte": ", ".join(v for v in (m["jornal"], m.get("caderno", ""), tr(m, "data", c.lang) if m.get("data") != m["ano"] else "") if v)},
+                              ident=id_materia(m)) for m in luisa]
+    itens = [item_texto(x) for x in dest]
+    destaques = "".join(itens[:1] + luisa_itens + itens[1:])
     resto = sorted((x for x in DATA["textos_sobre"] if not x.get("destaque")), key=prio)  # estável: mantém a ordem por ano
     sobre = "".join(item_texto(x) for x in resto)
-    imprensa = "".join(item_imprensa(m, c) for m in sorted(DATA.get("imprensa", []), key=lambda m: -int(m["ano"] or 0)))
+    imprensa = "".join(item_imprensa(m, c) for m in sorted((m for m in DATA.get("imprensa", []) if m.get("autor") != "Luisa Duarte"),
+                                                             key=lambda m: -int(m["ano"] or 0)))
     dele = "".join(item_texto(x, False) for x in DATA["textos_do_artista"])
     ents = DATA.get("entrevistas", [])
     entrevistas = (f'<h2 class="sub">{t["entrevistas"]}</h2>' + "".join(
