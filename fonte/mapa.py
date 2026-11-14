@@ -199,8 +199,8 @@ def svg(c, by_id, esc, ano_fn, ano_en, vertical=False):
         rot_ano = o.get("ano_mapa") or str(o["ano"]).split(" /")[-1].strip()
         if c.lang == "en":
             rot_ano = ano_en.get(rot_ano, rot_ano)
-        txt = (f'<text class="m-nome" x="{x + dx:.1f}" y="{ny:.1f}" text-anchor="{anchor}">{esc(o["titulo"])}</text>'
-               f'<text class="m-ano" x="{x + dx:.1f}" y="{ny + (14 if t == 3 else 12):.1f}" text-anchor="{anchor}">{esc(rot_ano)}</text>')
+        txt = (f'<text class="m-nome" aria-hidden="true" x="{x + dx:.1f}" y="{ny:.1f}" text-anchor="{anchor}">{esc(o["titulo"])}</text>'
+               f'<text class="m-ano" aria-hidden="true" x="{x + dx:.1f}" y="{ny + (14 if t == 3 else 12):.1f}" text-anchor="{anchor}">{esc(rot_ano)}</text>')
         nos.append(
             f'<a class="m-no t{t}{" premiada" if premiada else ""}" href="{href}" data-id="{k}" data-ano="{ano_num}" '
             f'data-x="{x:.1f}" data-y="{y:.1f}" data-p="{x - cx:.1f},{y - cy:.1f},{z:.0f}" data-lado="{"e" if esq else "d"}" aria-label="{esc(o["titulo"])}, {esc(rot_ano)}">'
