@@ -48,6 +48,9 @@ T = {
    textos="Textos", em_destaque="Em destaque", col_destaque="Coletivas em destaque", sobre_obra="Sobre a obra", do_artista="Do artista", entrevistas="Entrevistas",
    academia="Mais textos e catálogos no Academia.edu ↗",
    sobre="Sobre", premios="Prêmios", financiamentos="Financiamentos e residências", indicacao="Indicação", colecoes="Coleções", videos="Vídeos", contato="Contato", contato_txt="e-mail a definir",
+   imprensa="Imprensa", duracao="Duração", fotos="Fotos", sobre_x="sobre", ler="ler ↗",
+   g_critica="crítica", g_reportagem="reportagem", g_coluna="coluna",
+   d_obra_pad="{t}, {a}. Obra de Floriano Romano.",
    d_indice="Todas as obras de Floriano Romano, da mais recente à mais antiga.",
    d_radio="Rádio-arte de Floriano Romano: micro-rádio, programas e radionovelas.",
    d_expos="Exposições individuais e coletivas de Floriano Romano.",
@@ -72,6 +75,9 @@ T = {
    textos="Texts", em_destaque="Highlights", col_destaque="Selected group exhibitions", sobre_obra="On the work", do_artista="By the artist", entrevistas="Interviews",
    academia="More texts and catalogues on Academia.edu ↗",
    sobre="About", premios="Awards", financiamentos="Funding and residencies", indicacao="Nomination", colecoes="Collections", videos="Videos", contato="Contact", contato_txt="email to be confirmed",
+   imprensa="Press", duracao="Duration", fotos="Photos", sobre_x="on", ler="read ↗",
+   g_critica="review", g_reportagem="report", g_coluna="column",
+   d_obra_pad="{t}, {a}. A work by Floriano Romano.",
    d_indice="All works by Floriano Romano, from the most recent to the earliest.",
    d_radio="Radio art by Floriano Romano: micro-radio, programmes and radio plays.",
    d_expos="Solo and group exhibitions by Floriano Romano.",
@@ -128,12 +134,29 @@ class Ctx:
         return self.base + ("" if self.lang == "en" else "en/") + self.rel
 
 
-def page(c, title, body, desc="", body_class="", scripts=(), active=""):
+SITE_URL = "https://florianoromano.art.br/"
+IMG_PADRAO = "media/obras/esquina/esquina-01.jpg"
+
+
+def resumo(txt, n=155):
+    """Descrição curta para buscadores: corta numa palavra inteira, nunca no meio."""
+    txt = " ".join(str(txt).split())
+    if len(txt) <= n:
+        return txt
+    corte = txt[:n - 1].rsplit(" ", 1)[0].rstrip(",;:—–- ")
+    return corte + "…"
+
+
+def page(c, title, body, desc="", body_class="", scripts=(), active="", som=False, imagem=""):
     t = c.t
     cur = ' aria-current="page"'
     nav = "".join(f'<a href="{c.lbase}{h}"{cur if h == active else ""}>{lab}</a>' for h, lab in t["nav"])
     full_title = f"{title} — Floriano Romano" if title else "Floriano Romano"
-    desc = desc or t["desc"]
+    desc = resumo(desc or t["desc"])
+    og_img = SITE_URL + (imagem or IMG_PADRAO)
+    og_url = SITE_URL + ("en/" if c.lang == "en" else "") + ("" if c.rel == "index.html" else c.rel)
+    botao_som = (f'\n    <button class="som" type="button" aria-pressed="false" data-som><span class="som-ponto" aria-hidden="true"></span>'
+                 f'<span data-som-rotulo>{t['som']}</span></button>') if som else ""
     js = (f'<script>window.LANG="{c.lang}";</script>' +
           "".join(f'<script src="{c.base}assets/js/{s}" defer></script>' for s in ("site.js",) + tuple(scripts)))
     miolo = f"""<a class="pular" href="#conteudo">{t['pular']}</a>
@@ -141,8 +164,7 @@ def page(c, title, body, desc="", body_class="", scripts=(), active=""):
   <a class="marca" href="{c.lbase}index.html">Floriano Romano</a>
   <nav class="nav" aria-label="Menu">{nav}</nav>
   <div class="topo-acoes">
-    <a class="lingua" href="{c.outra()}" hreflang="{'pt-BR' if c.lang == 'en' else 'en'}" title="{t['outra_lingua_nome']}">{t['outra_lingua']}</a>
-    <button class="som" type="button" aria-pressed="false" data-som><span class="som-ponto" aria-hidden="true"></span><span data-som-rotulo>{t['som']}</span></button>
+    <a class="lingua" href="{c.outra()}" hreflang="{'pt-BR' if c.lang == 'en' else 'en'}" title="{t['outra_lingua_nome']}">{t['outra_lingua']}</a>{botao_som}
   </div>
 </header>
 <main id="conteudo">
@@ -168,6 +190,11 @@ def page(c, title, body, desc="", body_class="", scripts=(), active=""):
 <meta property="og:title" content="{e(full_title)}">
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:type" content="website">
+<meta property="og:url" content="{e(og_url)}">
+<meta property="og:image" content="{e(og_img)}">
+<meta property="og:site_name" content="Floriano Romano">
+<meta property="og:locale" content="{'en_US' if c.lang == 'en' else 'pt_BR'}">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" hreflang="{'pt-BR' if c.lang == 'en' else 'en'}" href="{c.outra()}">
 <link rel="icon" href="{c.base}assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -204,7 +231,7 @@ def build_index(c):
     <p class="dica"><span class="dica-hover">{t['dica_hover']}</span><span class="dica-toque">{t['dica_toque']}</span></p>
   </div>
 </section>"""
-    return page(c, "", body, scripts=("mapa.js",), body_class="pg-inicio")
+    return page(c, "", body, scripts=("mapa.js",), body_class="pg-inicio", som=True)
 
 
 # ----------------------------------------------------------------- obra
@@ -224,6 +251,70 @@ def video_embed(v, c):
 def miniatura(o):
     imgs = [i for i in (o.get("imagens") or []) if not i.get("aprovar")]
     return imgs[0]["src"] if imgs else ""
+
+
+def alt_img(i, o, lang):
+    if lang == "en" and i.get("alt_en"):
+        return i["alt_en"]
+    return legenda(i.get("alt", o["titulo"]), lang)
+
+
+def fotografos(imgs):
+    nomes = []
+    for i in imgs:
+        n = i.get("fotografo") or (i.get("credito", "").split("Foto:")[-1].strip() if "Foto:" in i.get("credito", "") else "")
+        if n and n not in nomes:
+            nomes.append(n)
+    return nomes
+
+
+# Ficha técnica padrão — a mesma ordem em todas as obras; campo sem dado não aparece.
+#   Prêmio · Financiamento · Materiais · Dimensões · Duração · Local · Exposição · Curadoria ·
+#   Exposição coletiva · Coleção · Fotos · Imprensa
+def ficha_obra(o, imgs, c):
+    t, lang = c.t, c.lang
+    f = []
+    def linha(rot, val, cls=""):
+        f.append(f'<dt{cls}>{rot}</dt><dd>{val}</dd>')
+    if o.get("premio"):
+        f.append(f'<dt class="sinal">{t["premio"]}</dt><dd class="ficha-premio">{e(tr(o, "premio", lang))}</dd>')
+    for rot, k in [("fomento", "fomento"), ("materiais", "materiais"), ("dimensoes", "dimensoes"), ("duracao", "duracao"), ("local", "local")]:
+        v = tr(o, k, lang)
+        if v:
+            linha(t[rot], e(v))
+    exps = ([o["exposicao"]] if o.get("exposicao") else []) + o.get("exposicoes_extra", [])
+    if exps:
+        linha(t["expo"], ", ".join(f'<a href="{c.lbase}exposicoes.html#{x}">{e(EXPOS[x]["titulo"])}</a> ({EXPOS[x]["ano"]})' for x in exps))
+        curs = []
+        for x in exps:
+            cu = EXPOS[x].get("curadoria")
+            if cu and cu not in curs:
+                curs.append(cu)
+        if curs:
+            linha(t["curadoria"], e(", ".join(curs)))
+    for cid in o.get("exposicoes_coletivas", []):
+        if cid in COLS:
+            col = COLS[cid]
+            linha(t["expo_col"], f'<a href="{c.lbase}exposicoes.html#{cid}">{e(tr(col, "titulo", lang))}</a> ({e(col["ano"])})')
+    v = tr(o, "colecao", lang)
+    if v:
+        linha(t["colecao"], e(v))
+    fts = fotografos(imgs)
+    if fts:
+        linha(t["fotos"], e(", ".join(fts)))
+    mats = [m for m in DATA.get("imprensa", []) if m.get("obra") == o["id"]]
+    if mats:
+        linha(t["imprensa"], "<br>".join(
+            f'<a href="{c.lbase}textos.html#{id_materia(m)}">{e(m["jornal"])}{", " + e(tr(m, "data", lang)) if m.get("data") else ""}</a>'
+            for m in mats))
+    return f
+
+
+def id_materia(m):
+    base = (m["jornal"] + "-" + (m.get("ano") or "") + "-" + m["titulo"]).lower()
+    import unicodedata, re
+    base = unicodedata.normalize("NFKD", base).encode("ascii", "ignore").decode()
+    return "imprensa-" + re.sub(r"[^a-z0-9]+", "-", base).strip("-")[:60]
 
 
 def build_obra(o, prev, nxt, c):
@@ -256,7 +347,7 @@ def build_obra(o, prev, nxt, c):
 
     imgs = [i for i in (o.get("imagens") or []) if not i.get("aprovar")]
     if imgs:
-        figs = "".join(f'<figure><img src="{b}{e(i["src"])}" alt="{e(legenda(i.get("alt", o["titulo"]), lang))}" loading="lazy">'
+        figs = "".join(f'<figure><img src="{b}{e(i["src"])}" alt="{e(alt_img(i, o, lang))}" loading="lazy">'
                        f'<figcaption class="dado">{e(legenda(i.get("credito", ""), lang))}</figcaption></figure>' for i in imgs)
         imagens = f'<section class="imagens" data-imagens>{figs}</section>'
     elif o.get("video"):
@@ -264,23 +355,7 @@ def build_obra(o, prev, nxt, c):
     else:
         imagens = f'<div class="imagens-vazio" aria-hidden="true"><span class="dado">{t["sem_img"]}</span></div>'
 
-    ficha = []
-    if o.get("premio"):
-        ficha.append(f'<dt class="sinal">{t["premio"]}</dt><dd class="ficha-premio">{e(tr(o, "premio", lang))}</dd>')
-    if o.get("fomento"):
-        ficha.append(f'<dt>{t["fomento"]}</dt><dd>{e(tr(o, "fomento", lang))}</dd>')
-    for rot, k in [("materiais", "materiais"), ("dimensoes", "dimensoes"), ("local", "local"), ("colecao", "colecao")]:
-        v = tr(o, k, lang)
-        if v:
-            ficha.append(f"<dt>{t[rot]}</dt><dd>{e(v)}</dd>")
-    exps = ([o["exposicao"]] if o.get("exposicao") else []) + o.get("exposicoes_extra", [])
-    if exps:
-        links = ", ".join(f'<a href="{c.lbase}exposicoes.html#{x}">{e(EXPOS[x]["titulo"])}</a> ({EXPOS[x]["ano"]})' for x in exps)
-        ficha.append(f"<dt>{t['expo']}</dt><dd>{links}</dd>")
-    for cid in o.get("exposicoes_coletivas", []):
-        if cid in COLS:
-            col = COLS[cid]
-            ficha.append(f'<dt>{t["expo_col"]}</dt><dd><a href="{c.lbase}exposicoes.html#{cid}">{e(tr(col, "titulo", lang))}</a> ({e(col["ano"])})</dd>')
+    ficha = ficha_obra(o, imgs, c)
 
     paras = tr(o, "texto", lang) or []
     texto = "".join(f"<p>{e(p)}</p>" for p in paras)
@@ -318,8 +393,9 @@ def build_obra(o, prev, nxt, c):
   {imagens}
   {videos}
 </article>"""
-    desc = (paras or [f"{o['titulo']}, {ano(o, lang)}. Floriano Romano."])[0][:155]
-    return page(c, o["titulo"], body, desc=desc, scripts=("obra.js",) if som_local else (), body_class="pg-obra")
+    desc = (paras or [t["d_obra_pad"].format(t=o["titulo"], a=ano(o, lang))])[0]
+    return page(c, o["titulo"], body, desc=desc, scripts=("obra.js",) if som_local else (), body_class="pg-obra",
+                imagem=miniatura(o))
 
 
 # ----------------------------------------------------------------- índice
@@ -372,7 +448,7 @@ def build_radio(c):
   <div class="radio-lista"><h2 class="sub">{t['estacoes']}</h2><ul>{lista}</ul></div>
 </section>
 <script>window.ESTACOES = {json.dumps(est, ensure_ascii=False)};{' window.PREVIA = true;' if PREVIA else ''}</script>"""
-    return page(c, t["radio"], body, scripts=("dial.js",), body_class="pg-radio noite", active="radio.html", desc=t["d_radio"])
+    return page(c, t["radio"], body, scripts=("dial.js",), body_class="pg-radio noite", active="radio.html", desc=t["d_radio"], som=True)
 
 
 # ----------------------------------------------------------------- exposições
@@ -475,6 +551,30 @@ def item_texto(x, com_autor=True):
     return f'<li>{a}<div>{autor}<span class="nome">{titulo}</span>{fonte}</div></li>'
 
 
+def item_imprensa(m, c):
+    t, lang = c.t, c.lang
+    titulo = e(m["titulo"])
+    if m.get("url"):
+        titulo = f'<a href="{e(m["url"])}" rel="noopener">{titulo}</a>'
+    veiculo = e(m["jornal"]) + (f' <span class="materia-caderno">{e(m["caderno"])}</span>' if m.get("caderno") else "")
+    data = f'<p class="dado materia-data">{e(tr(m, "data", lang))}</p>' if m.get("data") else ""
+    linha = []
+    if m.get("autor"):
+        linha.append(e(m["autor"]))
+    g = t.get("g_" + m.get("genero", ""), "")
+    if g:
+        linha.append(g)
+    sobre = tr(m, "sobre", lang)
+    if sobre:
+        alvo = e(sobre)
+        if m.get("obra") and m["obra"] in BY_ID and BY_ID[m["obra"]]["titulo"] == sobre:
+            alvo = f'<a href="obras/{m["obra"]}.html">{alvo}</a>'
+        linha.append(f'{t["sobre_x"]} {alvo}')
+    return (f'<li class="materia" id="{id_materia(m)}"><p class="materia-veiculo">{veiculo}</p>'
+            f'{data}<p class="materia-titulo">{titulo}</p>'
+            f'<p class="materia-linha">{" · ".join(linha)}</p></li>')
+
+
 def build_textos(c):
     t = c.t
     ordem_d = ["Floriano Romano: Esquina", "Making Oneself Heard", "Acoustic Territories", "Sonar", "Desorientação",
@@ -490,6 +590,7 @@ def build_textos(c):
     destaques = "".join(item_texto(x) for x in dest)
     resto = sorted((x for x in DATA["textos_sobre"] if not x.get("destaque")), key=prio)  # estável: mantém a ordem por ano
     sobre = "".join(item_texto(x) for x in resto)
+    imprensa = "".join(item_imprensa(m, c) for m in sorted(DATA.get("imprensa", []), key=lambda m: -int(m["ano"] or 0)))
     dele = "".join(item_texto(x, False) for x in DATA["textos_do_artista"])
     ents = DATA.get("entrevistas", [])
     entrevistas = (f'<h2 class="sub">{t["entrevistas"]}</h2>' + "".join(
@@ -500,6 +601,8 @@ def build_textos(c):
   <h1 class="titulo-pagina">{t['textos']}</h1>
   <h2 class="sub">{t['em_destaque']}</h2>
   <ul class="lista-textos lista-destaque">{destaques}</ul>
+  <h2 class="sub" id="imprensa">{t['imprensa']}</h2>
+  <ul class="imprensa">{imprensa}</ul>
   <h2 class="sub">{t['sobre_obra']}</h2>
   <ul class="lista-textos">{sobre}</ul>
   <h2 class="sub">{t['do_artista']}</h2>

@@ -1495,14 +1495,6 @@
    "destaque": true
   },
   {
-   "autor": "Luisa Duarte",
-   "titulo": "Desorientação afetiva pela noite",
-   "fonte": "O Globo",
-   "ano": "2016",
-   "url": "",
-   "destaque": true
-  },
-  {
    "autor": "João Paulo Quintella (curadoria)",
    "titulo": "Permanências e Destruições",
    "fonte": "catálogo da exposição, vários autores",
@@ -1523,13 +1515,6 @@
    "ano": "2013",
    "url": "https://www.academia.edu/40573060/Catalogo_da_Exposicao_SONAR_curadoria_Gloria_Ferreira",
    "destaque": true
-  },
-  {
-   "autor": "Luisa Duarte",
-   "titulo": "Em alto e bom som",
-   "fonte": "O Globo, 16 de dezembro",
-   "ano": "2013",
-   "url": "https://www.academia.edu/40573061/Em_alto_e_bom_som_Luisa_Duarte"
   },
   {
    "autor": "Bolsa de Arte — O Paralelo",
@@ -1582,25 +1567,11 @@
    "url": "https://www.nendu.net/?p=113&lang=pt"
   },
   {
-   "autor": "O Globo",
-   "titulo": "Projeto de residência artística une brasileiros e holandeses no Rio",
-   "fonte": "O Globo, Cultura — sobre a residência HOBRA",
-   "ano": "",
-   "url": "https://oglobo.globo.com/cultura/teatro/projeto-de-residencia-artistica-une-brasileiros-holandeses-no-rio-19819389"
-  },
-  {
    "autor": "Mauro Sá Rego Costa, Adriana Gomes Ribeiro e Pedro de Albuquerque Araujo",
    "titulo": "Radio Art in Brazil: A Panorama of Artists and Productions",
    "fonte": "Research Catalogue",
    "ano": "",
    "url": "https://www.researchcatalogue.net/view/863825/863847"
-  },
-  {
-   "autor": "Marisa Flórido Cesar",
-   "titulo": "O eco da distância",
-   "fonte": "",
-   "ano": "",
-   "url": "https://www.academia.edu/40573062/O_eco_da_dist%C3%A2ncia_Marisa_Florido_Cesar"
   },
   {
    "autor": "Nani Rubin",
@@ -1711,5 +1682,94 @@
    }
   }
  ],
- "perfil_academia": "https://ufrj.academia.edu/FlorianoRomano"
+ "perfil_academia": "https://ufrj.academia.edu/FlorianoRomano",
+ "imprensa": [
+  {
+   "jornal": "O Globo",
+   "caderno": "",
+   "data": "2016",
+   "ano": "2016",
+   "autor": "Luisa Duarte",
+   "genero": "crítica",
+   "titulo": "Desorientação afetiva pela noite",
+   "obra": "",
+   "url": ""
+  },
+  {
+   "jornal": "O Globo",
+   "caderno": "Segundo Caderno",
+   "data": "16 dez. 2013",
+   "data_en": "16 Dec 2013",
+   "ano": "2013",
+   "autor": "Luisa Duarte",
+   "genero": "crítica",
+   "titulo": "Em alto e bom som",
+   "sobre": "Sonar",
+   "obra": "sonar",
+   "url": "https://www.academia.edu/40573061/Em_alto_e_bom_som_Luisa_Duarte"
+  },
+  {
+   "jornal": "O Globo",
+   "caderno": "Segundo Caderno",
+   "data": "30 jul. 2012",
+   "data_en": "30 Jul 2012",
+   "ano": "2012",
+   "autor": "Marisa Flórido",
+   "genero": "crítica",
+   "titulo": "O eco da distância",
+   "sobre": "A Cidade Sonora",
+   "obra": "cidade-sonora",
+   "url": "https://www.academia.edu/40573062/O_eco_da_dist%C3%A2ncia_Marisa_Florido_Cesar"
+  },
+  {
+   "jornal": "O Globo",
+   "caderno": "Segundo Caderno, coluna Gente Boa",
+   "data": "12 jul. 2008",
+   "data_en": "12 Jul 2008",
+   "ano": "2008",
+   "autor": "Joaquim Ferreira dos Santos",
+   "genero": "coluna",
+   "titulo": "Comunidade do Anil desfila na exposição de Anita Schwartz",
+   "sobre": "Trajetórias em processo",
+   "obra": "falante",
+   "url": ""
+  },
+  {
+   "jornal": "Jornal do Brasil",
+   "caderno": "Caderno B",
+   "data": "2008",
+   "ano": "2008",
+   "autor": "Clara Passi",
+   "genero": "reportagem",
+   "titulo": "Sete artistas põem sua arte escondida na luz",
+   "sobre": "Trajetórias em processo",
+   "obra": "falante",
+   "url": ""
+  },
+  {
+   "jornal": "Jornal do Brasil",
+   "caderno": "Caderno B",
+   "data": "12 abr. 2005",
+   "data_en": "12 Apr 2005",
+   "ano": "2005",
+   "autor": "Marisa Flórido",
+   "genero": "crítica",
+   "titulo": "Não matarás",
+   "sobre": "intervenção em Nova Iguaçu",
+   "url": "",
+   "sobre_en": "an intervention in Nova Iguaçu"
+  },
+  {
+   "jornal": "O Globo",
+   "caderno": "Cultura",
+   "data": "",
+   "ano": "",
+   "autor": "",
+   "genero": "reportagem",
+   "titulo": "Projeto de residência artística une brasileiros e holandeses no Rio",
+   "sobre": "residência HOBRA",
+   "url": "https://oglobo.globo.com/cultura/teatro/projeto-de-residencia-artistica-une-brasileiros-holandeses-no-rio-19819389",
+   "sobre_en": "the HOBRA residency"
+  }
+ ]
 }

@@ -380,3 +380,18 @@ a.play { text-decoration: none; }
 .expo-destaque .expo-titulo { font-size: 2.25rem; }
 .expo-destaque .expo-titulo a { color: inherit; text-decoration: none; }
 .expo-destaque .expo-titulo a:hover { color: var(--signal-text); }
+
+/* ---------- imprensa: matérias de jornal em destaque */
+.imprensa { list-style: none; padding: 0; margin: 0 0 var(--s16); display: grid; gap: var(--s8) var(--s6);
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); max-width: 72rem; }
+.materia { border-top: 3px solid var(--text); padding-top: var(--s3); }
+.materia p { margin: 0; }
+.materia-veiculo { font-family: var(--f-mark); font-weight: 500; text-transform: uppercase; letter-spacing: 0.18em; font-size: 0.8125rem; }
+.materia-caderno { display: block; font-family: var(--f-data); text-transform: none; letter-spacing: 0; font-size: 0.75rem; color: var(--text-2); margin-top: 2px; }
+.materia-data { margin-top: var(--s2) !important; color: var(--text-2); }
+.materia-titulo { font-family: var(--f-name); font-style: italic; font-size: 1.75rem; line-height: 1.12; margin-top: var(--s3) !important; }
+.materia-titulo a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--rule); }
+.materia-titulo a:hover { color: var(--signal-text); border-color: currentColor; }
+.materia-linha { font-size: 0.875rem; color: var(--ink-700); margin-top: var(--s2) !important; }
+.materia-linha a { color: inherit; }
+.noite .materia-linha { color: var(--text-2); }

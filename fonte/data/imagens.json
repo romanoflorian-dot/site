@@ -2,347 +2,399 @@
   "esquina": [
     {
       "src": "media/obras/esquina/esquina-01.jpg",
-      "alt": "Esquina, Futuros – Arte e Tecnologia, 2023",
+      "alt": "Visitante de costas entre grandes painéis vermelhos, amarelos e azuis da instalação Esquina",
       "credito": "Esquina, Futuros – Arte e Tecnologia, 2023 · Foto: Pedro Tressi",
-      "fotografo": "Pedro Tressi"
+      "fotografo": "Pedro Tressi",
+      "alt_en": "Visitor seen from behind among large red, yellow and blue panels of the installation Esquina"
     },
     {
       "src": "media/obras/esquina/esquina-02.jpg",
-      "alt": "Esquina, vista da instalação",
+      "alt": "Painéis amarelos e vermelhos de Esquina formando corredores e cantos",
       "credito": "Esquina, vista da instalação · Foto: Pedro Tressi",
-      "fotografo": "Pedro Tressi"
+      "fotografo": "Pedro Tressi",
+      "alt_en": "Yellow and red panels of Esquina forming corridors and corners"
     },
     {
       "src": "media/obras/esquina/esquina-03.jpg",
-      "alt": "Esquina e Esquinas I–X",
+      "alt": "Sala com os painéis coloridos de Esquina ao fundo e as telas Esquinas I–X na parede branca",
       "credito": "Esquina e Esquinas I–X · Foto: Pedro Tressi",
-      "fotografo": "Pedro Tressi"
+      "fotografo": "Pedro Tressi",
+      "alt_en": "Gallery with the coloured panels of Esquina and the Esquinas I–X canvases on the white wall"
     },
     {
       "src": "media/obras/esquina/esquina-04.jpg",
-      "alt": "Esquina, detalhe",
+      "alt": "Detalhe de Esquina: faixas verticais vermelha, azul e amarela",
       "credito": "Esquina, detalhe · Foto: Pedro Tressi",
-      "fotografo": "Pedro Tressi"
+      "fotografo": "Pedro Tressi",
+      "alt_en": "Detail of Esquina: vertical bands of red, blue and yellow"
     }
   ],
   "esquinas": [
     {
       "src": "media/obras/esquinas/esquinas-01.jpg",
-      "alt": "Esquinas I–X, vista da exposição A Pele do Mundo",
+      "alt": "Telas brancas com linhas pretas cruzadas, da série Esquinas I–X, com um visitante passando",
       "credito": "Esquinas I–X, vista da exposição A Pele do Mundo · Foto: Pedro Tressi",
-      "fotografo": "Pedro Tressi"
+      "fotografo": "Pedro Tressi",
+      "alt_en": "White canvases with crossing black lines from the Esquinas I–X series, with a visitor walking by"
     },
     {
       "src": "media/obras/esquinas/esquinas-02.jpg",
-      "alt": "Esquinas I–X e Esquina",
+      "alt": "Corredor com as telas Esquinas I–X à direita e os painéis de Esquina à esquerda",
       "credito": "Esquinas I–X e Esquina · Foto: Pedro Tressi",
-      "fotografo": "Pedro Tressi"
+      "fotografo": "Pedro Tressi",
+      "alt_en": "Corridor with the Esquinas I–X canvases on the right and the Esquina panels on the left"
     }
   ],
   "turbina": [
     {
       "src": "media/obras/turbina/turbina-01.jpg",
-      "alt": "Turbina, Futuros – Arte e Tecnologia, 2023",
+      "alt": "Detalhe de Turbina: parede modular com dezenas de aberturas circulares de alto-falantes",
       "credito": "Turbina, Futuros – Arte e Tecnologia, 2023 · Foto: Pedro Tressi",
-      "fotografo": "Pedro Tressi"
+      "fotografo": "Pedro Tressi",
+      "alt_en": "Detail of Turbina: modular wall with dozens of circular loudspeaker openings"
     },
     {
       "src": "media/obras/turbina/turbina-02.jpg",
-      "alt": "Turbina e Espreguiçadeiras Sonoras, 2023",
+      "alt": "Três espreguiçadeiras de madeira diante da parede de alto-falantes de Turbina",
       "credito": "Turbina e Espreguiçadeiras Sonoras, 2023 · Foto: Pedro Tressi",
-      "fotografo": "Pedro Tressi"
+      "fotografo": "Pedro Tressi",
+      "alt_en": "Three wooden loungers in front of the loudspeaker wall of Turbina"
     },
     {
       "src": "media/obras/turbina/turbina-03.jpg",
-      "alt": "Turbina, Casa de Cultura Laura Alvim, 2013",
+      "alt": "Turbina, parede branca de alto-falantes em sala de casa antiga",
       "credito": "Turbina, Casa de Cultura Laura Alvim, 2013 · Foto: Mario Grisolli",
-      "fotografo": "Mario Grisolli"
+      "fotografo": "Mario Grisolli",
+      "alt_en": "Turbina, a white wall of loudspeakers in a room of an old house"
     },
     {
       "src": "media/obras/turbina/turbina-04.jpg",
-      "alt": "Turbina diante da praia de Ipanema, 2013",
+      "alt": "Turbina vista através do vidro, com a orla de Ipanema refletida ao entardecer",
       "credito": "Turbina diante da praia de Ipanema, 2013 · Foto: Mario Grisolli",
-      "fotografo": "Mario Grisolli"
+      "fotografo": "Mario Grisolli",
+      "alt_en": "Turbina seen through glass, with the Ipanema seafront reflected at dusk"
     }
   ],
   "espreguicadeiras-sonoras": [
     {
       "src": "media/obras/espreguicadeiras-sonoras/espreguicadeiras-sonoras-01.jpg",
-      "alt": "Espreguiçadeiras Sonoras, Parque das Ruínas, 2016",
+      "alt": "Pessoas deitadas nas espreguiçadeiras de madeira no mirante do Parque das Ruínas",
       "credito": "Espreguiçadeiras Sonoras, Parque das Ruínas, 2016 · Foto: Wilton Montenegro",
-      "fotografo": "Wilton Montenegro"
+      "fotografo": "Wilton Montenegro",
+      "alt_en": "People lying on the wooden loungers at the Parque das Ruínas lookout"
     },
     {
       "src": "media/obras/espreguicadeiras-sonoras/espreguicadeiras-sonoras-02.jpg",
-      "alt": "Espreguiçadeiras Sonoras no mirante do Parque das Ruínas",
+      "alt": "Espreguiçadeiras no mirante, com visitantes olhando a vista do Pão de Açúcar",
       "credito": "Espreguiçadeiras Sonoras no mirante do Parque das Ruínas · Foto: Wilton Montenegro",
-      "fotografo": "Wilton Montenegro"
+      "fotografo": "Wilton Montenegro",
+      "alt_en": "Loungers at the lookout, with visitors facing the view of Sugarloaf Mountain"
     },
     {
       "src": "media/obras/espreguicadeiras-sonoras/espreguicadeiras-sonoras-03.jpg",
-      "alt": "Espreguiçadeiras Sonoras, Futuros, 2023",
+      "alt": "Três espreguiçadeiras de ripas de madeira clara em sala de exposição",
       "credito": "Espreguiçadeiras Sonoras, Futuros, 2023 · Foto: Pedro Tressi",
-      "fotografo": "Pedro Tressi"
+      "fotografo": "Pedro Tressi",
+      "alt_en": "Three light wooden slatted loungers in an exhibition room"
     },
     {
       "src": "media/obras/espreguicadeiras-sonoras/espreguicadeiras-sonoras-04.jpg",
-      "alt": "Espreguiçadeiras Sonoras, Futuros, 2023",
+      "alt": "Três espreguiçadeiras de madeira enfileiradas em sala branca",
       "credito": "Espreguiçadeiras Sonoras, Futuros, 2023 · Foto: Pedro Tressi",
-      "fotografo": "Pedro Tressi"
+      "fotografo": "Pedro Tressi",
+      "alt_en": "Three wooden loungers in a row in a white room"
     }
   ],
   "chuveiros-sonoros": [
     {
       "src": "media/obras/chuveiros-sonoros/chuveiros-sonoros-01.jpg",
-      "alt": "Chuveiros Sonoros",
+      "alt": "Duas pessoas sob chuveiros de aço inox diante de parede rústica iluminada",
       "credito": "Chuveiros Sonoros · Foto: Vicente de Mello",
-      "fotografo": "Vicente de Mello"
+      "fotografo": "Vicente de Mello",
+      "alt_en": "Two people under stainless steel showers before a lit rough wall"
     },
     {
       "src": "media/obras/chuveiros-sonoros/chuveiros-sonoros-02.jpg",
-      "alt": "Chuveiros Sonoros",
+      "alt": "Três chuveiros de aço inox lado a lado junto a uma parede branca",
       "credito": "Chuveiros Sonoros · Foto: Vicente de Mello",
-      "fotografo": "Vicente de Mello"
+      "fotografo": "Vicente de Mello",
+      "alt_en": "Three stainless steel showers side by side against a white wall"
     },
     {
       "src": "media/obras/chuveiros-sonoros/chuveiros-sonoros-03.jpg",
-      "alt": "Chuveiros Sonoros, Futuros, 2023",
+      "alt": "Dois chuveiros de aço inox em sala branca, ao lado de uma parede de alto-falantes",
       "credito": "Chuveiros Sonoros, Futuros, 2023 · Foto: Pedro Tressi",
-      "fotografo": "Pedro Tressi"
+      "fotografo": "Pedro Tressi",
+      "alt_en": "Two stainless steel showers in a white room, beside a wall of loudspeakers"
     },
     {
       "src": "media/obras/chuveiros-sonoros/chuveiros-sonoros-04.jpg",
-      "alt": "Chuveiros Sonoros, detalhe",
+      "alt": "Detalhe de um chuveiro de aço inox e sua sombra na parede",
       "credito": "Chuveiros Sonoros, detalhe · Foto: Pedro Tressi",
-      "fotografo": "Pedro Tressi"
+      "fotografo": "Pedro Tressi",
+      "alt_en": "Detail of a stainless steel shower and its shadow on the wall"
     }
   ],
   "mascara-sonora": [
     {
       "src": "media/obras/mascara-sonora/mascara-sonora-01.jpg",
-      "alt": "Máscara Sonora, videoperformance, Futuros, 2023",
+      "alt": "Projeção da videoperformance Máscara Sonora numa sala escura, com uma pessoa sentada assistindo",
       "credito": "Máscara Sonora, videoperformance, Futuros, 2023 · Foto: Pedro Tressi",
-      "fotografo": "Pedro Tressi"
+      "fotografo": "Pedro Tressi",
+      "alt_en": "Projection of the video performance Máscara Sonora in a dark room, with a seated viewer"
     }
   ],
   "muro-de-som": [
     {
       "src": "media/obras/muro-de-som/muro-de-som-01.jpg",
-      "alt": "Muro de Som, Parque das Ruínas, 2016",
+      "alt": "Painel de madeira com alto-falantes na parede de tijolos das ruínas, visto do alto da escada",
       "credito": "Muro de Som, Parque das Ruínas, 2016 · Foto: Wilton Montenegro",
-      "fotografo": "Wilton Montenegro"
+      "fotografo": "Wilton Montenegro",
+      "alt_en": "Wooden panel with loudspeakers on the ruined brick wall, seen from the top of the stairs"
     },
     {
       "src": "media/obras/muro-de-som/muro-de-som-02.jpg",
-      "alt": "Muro de Som, as duas paredes de alto-falantes",
+      "alt": "Duas paredes de tijolos com painéis de alto-falantes, frente a frente, sob telhado de vidro",
       "credito": "Muro de Som, as duas paredes de alto-falantes · Foto: Wilton Montenegro",
-      "fotografo": "Wilton Montenegro"
+      "fotografo": "Wilton Montenegro",
+      "alt_en": "Two brick walls with loudspeaker panels facing each other under a glass roof"
     },
     {
       "src": "media/obras/muro-de-som/muro-de-som-03.jpg",
-      "alt": "Muro de Som, a escada diante da obra",
+      "alt": "Painel de alto-falantes na parede de tijolos e pessoas descendo a escada",
       "credito": "Muro de Som, a escada diante da obra · Foto: Wilton Montenegro",
-      "fotografo": "Wilton Montenegro"
+      "fotografo": "Wilton Montenegro",
+      "alt_en": "Loudspeaker panel on the brick wall and people walking down the stairs"
     },
     {
       "src": "media/obras/muro-de-som/muro-de-som-04.jpg",
-      "alt": "Muro de Som",
+      "alt": "Painel de alto-falantes na parede de tijolos, com o corrimão vermelho em primeiro plano",
       "credito": "Muro de Som · Foto: Wilton Montenegro",
-      "fotografo": "Wilton Montenegro"
+      "fotografo": "Wilton Montenegro",
+      "alt_en": "Loudspeaker panel on the brick wall, with the red handrail in the foreground"
     },
     {
       "src": "media/obras/muro-de-som/muro-de-som-05.jpg",
-      "alt": "Cúpulas Sonoras na escada de acesso",
+      "alt": "Cúpula de som no teto de uma escada branca em arcos",
       "credito": "Cúpulas Sonoras na escada de acesso · Foto: Wilton Montenegro",
-      "fotografo": "Wilton Montenegro"
+      "fotografo": "Wilton Montenegro",
+      "alt_en": "Sound dome on the ceiling of a white arched staircase"
     }
   ],
   "binoculos-sonoros": [
     {
       "src": "media/obras/binoculos-sonoros/binoculos-sonoros-01.jpg",
-      "alt": "Binóculos Sonoros, Parque das Ruínas, 2016",
+      "alt": "Binóculo de metal sobre pedestal, com o Pão de Açúcar e a cidade ao fundo",
       "credito": "Binóculos Sonoros, Parque das Ruínas, 2016 · Foto: Wilton Montenegro",
-      "fotografo": "Wilton Montenegro"
+      "fotografo": "Wilton Montenegro",
+      "alt_en": "Metal binoculars on a pedestal, with Sugarloaf Mountain and the city behind"
     },
     {
       "src": "media/obras/binoculos-sonoros/binoculos-sonoros-02.jpg",
-      "alt": "Binóculos Sonoros",
+      "alt": "Mulher olhando pelo binóculo sonoro no mirante",
       "credito": "Binóculos Sonoros · Foto: Wilton Montenegro",
-      "fotografo": "Wilton Montenegro"
+      "fotografo": "Wilton Montenegro",
+      "alt_en": "Woman looking through the sound binoculars at the lookout"
     },
     {
       "src": "media/obras/binoculos-sonoros/binoculos-sonoros-03.jpg",
-      "alt": "Binóculos Sonoros voltados para a Baía de Guanabara",
+      "alt": "Binóculo sonoro no parapeito, voltado para a Baía de Guanabara",
       "credito": "Binóculos Sonoros voltados para a Baía de Guanabara · Foto: Wilton Montenegro",
-      "fotografo": "Wilton Montenegro"
+      "fotografo": "Wilton Montenegro",
+      "alt_en": "Sound binoculars on the railing, facing Guanabara Bay"
     }
   ],
   "errancia": [
     {
       "src": "media/obras/errancia/errancia-01.jpg",
-      "alt": "Errância, Centro Cultural Banco do Brasil, 2016",
+      "alt": "Sala ampla com piso de madeira e caixas de som em pedestais espalhadas",
       "credito": "Errância, Centro Cultural Banco do Brasil, 2016 · Foto: Mario Grisolli",
-      "fotografo": "Mario Grisolli"
+      "fotografo": "Mario Grisolli",
+      "alt_en": "Large room with wooden floor and loudspeakers on stands spread across it"
     },
     {
       "src": "media/obras/errancia/errancia-02.jpg",
-      "alt": "Errância",
+      "alt": "Uma caixa de som sobre pedestal no centro da sala branca",
       "credito": "Errância · Foto: Mario Grisolli",
-      "fotografo": "Mario Grisolli"
+      "fotografo": "Mario Grisolli",
+      "alt_en": "A single loudspeaker on a stand in the middle of the white room"
     },
     {
       "src": "media/obras/errancia/errancia-03.jpg",
-      "alt": "Errância",
+      "alt": "Visão em perspectiva da sala com caixas de som em pedestais e visitantes ao fundo",
       "credito": "Errância · Foto: Mario Grisolli",
-      "fotografo": "Mario Grisolli"
+      "fotografo": "Mario Grisolli",
+      "alt_en": "Perspective view of the room with loudspeakers on stands and visitors in the distance"
     }
   ],
   "falante": [
     {
       "src": "media/obras/falante/falante-01.jpg",
-      "alt": "Falante, São Paulo, 2007",
+      "alt": "Homem caminhando numa praça do centro de São Paulo com uma mochila-caixa de som nas costas",
       "credito": "Falante, São Paulo, 2007 · Foto: Edouard Fraipont",
-      "fotografo": "Edouard Fraipont"
+      "fotografo": "Edouard Fraipont",
+      "alt_en": "Man walking across a square in central São Paulo with a loudspeaker backpack"
     },
     {
       "src": "media/obras/falante/falante-02.jpg",
-      "alt": "Falante, São Paulo, 2007",
+      "alt": "De costas, homem com a mochila preta de alto-falante no meio da multidão",
       "credito": "Falante, São Paulo, 2007 · Foto: Edouard Fraipont",
-      "fotografo": "Edouard Fraipont"
+      "fotografo": "Edouard Fraipont",
+      "alt_en": "Man seen from behind with the black loudspeaker backpack in a crowd"
     },
     {
       "src": "media/obras/falante/falante-03.jpg",
-      "alt": "Falante",
+      "alt": "Homem com a mochila de alto-falante numa calçada movimentada",
       "credito": "Falante · Foto: Edouard Fraipont",
-      "fotografo": "Edouard Fraipont"
+      "fotografo": "Edouard Fraipont",
+      "alt_en": "Man with the loudspeaker backpack on a busy pavement"
     }
   ],
   "sonar": [
     {
       "src": "media/obras/sonar/sonar-01.jpg",
-      "alt": "Sonar, Casa de Cultura Laura Alvim, 2013",
+      "alt": "Sala com caixas de alto-falantes empilhadas em escada e um móvel de gavetas",
       "credito": "Sonar, Casa de Cultura Laura Alvim, 2013 · Foto: Mario Grisolli",
-      "fotografo": "Mario Grisolli"
+      "fotografo": "Mario Grisolli",
+      "alt_en": "Room with loudspeaker boxes stacked like steps and a chest of drawers"
     },
     {
       "src": "media/obras/sonar/sonar-02.jpg",
-      "alt": "O estrangeiro, 2013",
+      "alt": "Móvel de madeira escura com gavetas brancas, algumas abertas (O estrangeiro)",
       "credito": "O estrangeiro, 2013 · Foto: Mario Grisolli",
-      "fotografo": "Mario Grisolli"
+      "fotografo": "Mario Grisolli",
+      "alt_en": "Dark wooden cabinet with white drawers, some open (O estrangeiro)"
     },
     {
       "src": "media/obras/sonar/sonar-03.jpg",
-      "alt": "Kafka, 2012",
+      "alt": "Máquina de escrever antiga sobre um suporte de madeira (Kafka)",
       "credito": "Kafka, 2012 · Foto: Mario Grisolli",
-      "fotografo": "Mario Grisolli"
+      "fotografo": "Mario Grisolli",
+      "alt_en": "Old typewriter on a wooden stand (Kafka)"
     },
     {
       "src": "media/obras/sonar/sonar-04.jpg",
-      "alt": "Desenhos com fita isolante na exposição Sonar",
+      "alt": "Sala branca com pequenos desenhos emoldurados nas paredes",
       "credito": "Desenhos com fita isolante na exposição Sonar · Foto: Mario Grisolli",
-      "fotografo": "Mario Grisolli"
+      "fotografo": "Mario Grisolli",
+      "alt_en": "White room with small framed drawings on the walls"
     }
   ],
   "radionovelas": [
     {
       "src": "media/obras/radionovelas/radionovelas-01.jpg",
-      "alt": "Radionovelas, Casa de Cultura Laura Alvim, 2013",
+      "alt": "Corredor com rádios antigos sobre prateleiras de madeira nas paredes",
       "credito": "Radionovelas, Casa de Cultura Laura Alvim, 2013 · Foto: Mario Grisolli",
-      "fotografo": "Mario Grisolli"
+      "fotografo": "Mario Grisolli",
+      "alt_en": "Corridor with old radios on wooden wall shelves"
     },
     {
       "src": "media/obras/radionovelas/radionovelas-02.jpg",
-      "alt": "Radionovelas, detalhe",
+      "alt": "Rádio antigo de madeira com o tecido do alto-falante rasgado, sobre prateleira",
       "credito": "Radionovelas, detalhe · Foto: Mario Grisolli",
-      "fotografo": "Mario Grisolli"
+      "fotografo": "Mario Grisolli",
+      "alt_en": "Old wooden radio with torn speaker cloth, on a shelf"
     }
   ],
   "cidade-sonora": [
     {
       "src": "media/obras/cidade-sonora/cidade-sonora-01.jpg",
-      "alt": "A Cidade Sonora, Palácio Gustavo Capanema, 2012",
+      "alt": "Salão com pilotis e visitantes entre conchas azuis de orelhão espalhadas pelo chão",
       "credito": "A Cidade Sonora, Palácio Gustavo Capanema, 2012 · Foto: Gisele Camargo",
-      "fotografo": "Gisele Camargo"
+      "fotografo": "Gisele Camargo",
+      "alt_en": "Hall with pilotis and visitors among blue phone-booth shells laid on the floor"
     },
     {
       "src": "media/obras/cidade-sonora/cidade-sonora-02.jpg",
-      "alt": "A Cidade Sonora",
+      "alt": "Conchas azuis de orelhão no chão escuro, entre as colunas do Palácio Gustavo Capanema",
       "credito": "A Cidade Sonora · Foto: Gisele Camargo",
-      "fotografo": "Gisele Camargo"
+      "fotografo": "Gisele Camargo",
+      "alt_en": "Blue phone-booth shells on the dark floor between the columns of the Palácio Gustavo Capanema"
     }
   ],
   "sapatos-sonoros": [
     {
       "src": "media/obras/sapatos-sonoros/sapatos-sonoros-01.jpg",
-      "alt": "Sapatos Sonoros, sapatos pandeiro",
+      "alt": "Pés calçando sapatos cobertos de platinelas de pandeiro",
       "credito": "Sapatos Sonoros, sapatos pandeiro · Arquivo do artista",
-      "fotografo": "Arquivo do artista"
+      "fotografo": "Arquivo do artista",
+      "alt_en": "Feet wearing shoes covered in tambourine jingles"
     },
     {
       "src": "media/obras/sapatos-sonoros/sapatos-sonoros-02.jpg",
-      "alt": "Sapatos Sonoros, sapatos com conchas",
+      "alt": "Pernas de jeans com sapatos cobertos de pequenas peças coloridas",
       "credito": "Sapatos Sonoros, sapatos com conchas · Arquivo do artista",
-      "fotografo": "Arquivo do artista"
+      "fotografo": "Arquivo do artista",
+      "alt_en": "Legs in jeans with shoes covered in small coloured pieces"
     },
     {
       "src": "media/obras/sapatos-sonoros/sapatos-sonoros-03.jpg",
-      "alt": "Sapatos Sonoros, Panorama da Arte Brasileira, MAM São Paulo, 2011",
+      "alt": "Pares de sapatos sobre bases pretas no chão da sala de exposição",
       "credito": "Sapatos Sonoros, Panorama da Arte Brasileira, MAM São Paulo, 2011 · Foto: Gisele Camargo",
-      "fotografo": "Gisele Camargo"
+      "fotografo": "Gisele Camargo",
+      "alt_en": "Pairs of shoes on black bases on the gallery floor"
     },
     {
       "src": "media/obras/sapatos-sonoros/sapatos-sonoros-04.jpg",
-      "alt": "Sapatos Sonoros, Panorama da Arte Brasileira",
+      "alt": "Criança calçando um dos sapatos sonoros na exposição",
       "credito": "Sapatos Sonoros, Panorama da Arte Brasileira · Foto: Gisele Camargo",
-      "fotografo": "Gisele Camargo"
+      "fotografo": "Gisele Camargo",
+      "alt_en": "Child putting on one of the sound shoes in the exhibition"
     }
   ],
   "historias-anonimas": [
     {
       "src": "media/obras/historias-anonimas/historias-anonimas-01.jpg",
-      "alt": "Histórias Anônimas, 2022",
+      "alt": "Coluna de seis caixas de som de madeira empilhadas junto à parede",
       "credito": "Histórias Anônimas, 2022 · Arquivo do artista",
-      "fotografo": "Arquivo do artista"
+      "fotografo": "Arquivo do artista",
+      "alt_en": "Column of six stacked wooden loudspeaker boxes against the wall"
     },
     {
       "src": "media/obras/historias-anonimas/historias-anonimas-02.jpg",
-      "alt": "Histórias Anônimas, com o artista",
+      "alt": "O artista encostado na parede ao lado da coluna de caixas de som",
       "credito": "Histórias Anônimas, com o artista · Arquivo do artista",
-      "fotografo": "Arquivo do artista"
+      "fotografo": "Arquivo do artista",
+      "alt_en": "The artist leaning on the wall beside the column of loudspeakers"
     }
   ],
   "cidade-labirinto": [
     {
       "src": "media/obras/cidade-labirinto/cidade-labirinto-01.jpg",
-      "alt": "Cidade Labirinto, Centro Municipal de Arte Hélio Oiticica, 2021",
+      "alt": "Homem com máscara de gás de pé diante de uma plataforma amarela com centro preto",
       "credito": "Cidade Labirinto, Centro Municipal de Arte Hélio Oiticica, 2021 · Foto: Floriano Romano e Tiago Baldissara",
-      "fotografo": "Floriano Romano e Tiago Baldissara"
+      "fotografo": "Floriano Romano e Tiago Baldissara",
+      "alt_en": "Man in a gas mask standing before a yellow platform with a black centre"
     },
     {
       "src": "media/obras/cidade-labirinto/cidade-labirinto-02.jpg",
-      "alt": "Cidade Labirinto",
+      "alt": "Homem de máscara de gás e camiseta branca diante da plataforma amarela",
       "credito": "Cidade Labirinto · Foto: Floriano Romano e Tiago Baldissara",
-      "fotografo": "Floriano Romano e Tiago Baldissara"
+      "fotografo": "Floriano Romano e Tiago Baldissara",
+      "alt_en": "Man in a gas mask and white T-shirt in front of the yellow platform"
     },
     {
       "src": "media/obras/cidade-labirinto/cidade-labirinto-03.jpg",
-      "alt": "Cidade Labirinto",
+      "alt": "Homem de máscara de gás de pé sobre a plataforma amarela, com caixas de som",
       "credito": "Cidade Labirinto · Foto: Floriano Romano e Tiago Baldissara",
-      "fotografo": "Floriano Romano e Tiago Baldissara"
+      "fotografo": "Floriano Romano e Tiago Baldissara",
+      "alt_en": "Man in a gas mask standing on the yellow platform, with loudspeakers"
     }
   ],
   "cidade-sensivel": [
     {
       "src": "media/obras/cidade-sensivel/cidade-sensivel-01.jpg",
-      "alt": "Cidade Sensível: Pedra do Sal",
+      "alt": "Escadaria de pedra da Pedra do Sal, com uma pessoa subindo",
       "credito": "Cidade Sensível: Pedra do Sal · Foto: Floriano Romano e Tiago Baldissara",
-      "fotografo": "Floriano Romano e Tiago Baldissara"
+      "fotografo": "Floriano Romano e Tiago Baldissara",
+      "alt_en": "Stone stairway of Pedra do Sal, with a person climbing"
     },
     {
       "src": "media/obras/cidade-sensivel/cidade-sensivel-02.jpg",
-      "alt": "Cidade Sensível: Praça Mauá",
+      "alt": "Praça Mauá ao entardecer, vista panorâmica",
       "credito": "Cidade Sensível: Praça Mauá · Foto: Floriano Romano e Tiago Baldissara",
-      "fotografo": "Floriano Romano e Tiago Baldissara"
+      "fotografo": "Floriano Romano e Tiago Baldissara",
+      "alt_en": "Praça Mauá at dusk, panoramic view"
     }
   ]
 }

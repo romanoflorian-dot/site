@@ -78,11 +78,17 @@ Margem lateral: 16px no celular, 64px a partir de 900px, 140px a partir de 1400p
 
 ## 5. Componentes
 
-- **Cabeçalho**: assinatura à esquerda, navegação à direita, botão de som. Sem fundo.
+- **Cabeçalho**: assinatura à esquerda, navegação à direita. O botão de som aparece só onde há som do site (Mapa e Rádio). Sem fundo.
 - **Mapa Esquina**: SVG; cada nó é um link com rótulo acessível; ao passar, as linhas que o atravessam ficam em evidência e um som curto escapa (se o som estiver ligado).
 - **Escuta**: botão circular vermelho, forma de onda em linha fina. As imagens ficam sempre visíveis (o véu que as revelava durante a escuta foi retirado a pedido do artista).
 - **Dial**: faixa graduada horizontal; agulha vermelha; ruído entre estações.
 - **Índice**: tabela filtrável por tipo.
+- **Ficha técnica (padrão)**: a mesma ordem em todas as obras, em português e inglês. Campo sem dado não aparece; nunca se inventa dado.
+  `Prêmio · Financiamento · Materiais · Dimensões · Duração · Local · Exposição · Curadoria · Exposição coletiva · Coleção · Fotos · Imprensa`.
+  Curadoria vem da exposição; Fotos, dos créditos das imagens; Imprensa, das matérias ligadas à obra (`imprensa[].obra` em `data/obras.json`).
+- **Imprensa**: matérias de jornal em destaque na página Textos, logo depois dos textos em destaque. Cartões com fio preto grosso no topo, nome do jornal em caixa alta (Jura), caderno e data em mono, título em serifa itálica grande, autor · gênero · obra. Dados em `imprensa` (`data/obras.json`), da mais recente à mais antiga.
+- **Prévia de links**: toda página tem `og:image` (primeira foto da obra; nas demais, Esquina) e descrição cortada em palavra inteira (até 155 caracteres).
+- **Imagens**: texto alternativo descreve o que se vê (`alt` e `alt_en` em `data/imagens.json`); a legenda guarda título, local, ano e fotógrafo.
 
 ## 6. Movimento
 
