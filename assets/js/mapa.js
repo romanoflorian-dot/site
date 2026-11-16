@@ -168,7 +168,7 @@ document.addEventListener("DOMContentLoaded", function () {
     svg.querySelectorAll("a.m-no").forEach(function (el) {
       var id = el.getAttribute("data-no");
       var ano = parseInt(el.getAttribute("data-ano"), 10) || 2010;
-      var freq = 260 + (ano - 2000) * 85;   /* obras mais recentes soam mais agudas */
+      var freq = 260 + (ano - 2000) * 85 + (parseInt((id || "").replace(/\D/g, ""), 10) || 0) * 11;   /* cada obra escolhe o seu trecho do mar */
       function entrar() { focar(id); if (window.FRSom && !arrasto) window.FRSom.escapar(freq); }
       el.addEventListener("mouseenter", entrar);
       el.addEventListener("focus", entrar);

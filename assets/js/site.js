@@ -25,19 +25,43 @@
     return b;
   }
 
-  /* Um som curto que "escapa" de um cruzamento: ruído filtrado numa faixa própria. */
+  /* Gravação do mar de Floriano Romano (algum_mar_1, trecho de 45 s). */
+  var MAR_URL = (function () {
+    var s = document.currentScript && document.currentScript.src;
+    try { return new URL("../audio/mar.mp3", s || location.href).href; } catch (e) { return "/assets/audio/mar.mp3"; }
+  })();
+  var mar = null, marCarregando = false;
+
+  function carregarMar() {
+    if (mar || marCarregando) return;
+    var c = contexto(); if (!c || !window.fetch) return;
+    marCarregando = true;
+    fetch(MAR_URL).then(function (r) { return r.arrayBuffer(); })
+      .then(function (a) {
+        return new Promise(function (ok, erro) { c.decodeAudioData(a, ok, erro); });
+      })
+      .then(function (b) { mar = b; })
+      .catch(function () { marCarregando = false; });
+  }
+
+  /* Um pedaço curto do mar que "escapa" de um cruzamento; cada obra tem o seu trecho. */
+  var ultimo = null;
   function escapar(freq) {
     if (!ligado) return;
     var c = contexto(); if (!c) return;
-    var t = c.currentTime;
-    var src = c.createBufferSource(); src.buffer = ruidoBuffer(c, 0.9);
-    var bp = c.createBiquadFilter(); bp.type = "bandpass"; bp.frequency.value = freq; bp.Q.value = 9;
+    if (!mar) { carregarMar(); return; }
+    var t = c.currentTime, dur = 2.4;
+    var inicio = (freq * 7.31) % (mar.duration - dur - 0.1);
+    if (ultimo) { try { ultimo.g.gain.cancelScheduledValues(t); ultimo.g.gain.setTargetAtTime(0.0001, t, 0.08); ultimo.src.stop(t + 0.4); } catch (e) {} }
+    var src = c.createBufferSource(); src.buffer = mar;
     var g = c.createGain();
     g.gain.setValueAtTime(0.0001, t);
-    g.gain.exponentialRampToValueAtTime(0.5, t + 0.04);
-    g.gain.exponentialRampToValueAtTime(0.0001, t + 0.85);
-    src.connect(bp); bp.connect(g); g.connect(c.destination);
-    src.start(t); src.stop(t + 0.9);
+    g.gain.exponentialRampToValueAtTime(0.9, t + 0.3);
+    g.gain.setValueAtTime(0.9, t + 1.0);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+    src.connect(g); g.connect(c.destination);
+    src.start(t, inicio, dur); src.stop(t + dur + 0.05);
+    ultimo = { src: src, g: g };
   }
 
   /* Ruído contínuo de rádio, com volume controlável (para o dial). */
@@ -65,7 +89,7 @@
 
   function definir(v) {
     ligado = v; guardar(v);
-    if (v) contexto();
+    if (v) { contexto(); carregarMar(); }
     atualizarBotoes();
     ouvintes.forEach(function (f) { f(v); });
   }
@@ -77,7 +101,7 @@
       b.addEventListener("click", function () { definir(!ligado); });
     });
     /* o navegador só libera o áudio depois de um gesto */
-    document.addEventListener("pointerdown", function () { if (ligado) contexto(); }, { once: true });
+    document.addEventListener("pointerdown", function () { if (ligado) { contexto(); carregarMar(); } }, { once: true });
   });
 
   window.FRSom = {
