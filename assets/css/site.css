@@ -128,6 +128,22 @@ img { max-width: 100%; display: block; }
 }
 .m-linhas line { stroke: var(--ink-900); stroke-linecap: butt; transition: opacity var(--t); }
 .m-linhas .m-halo { stroke: var(--paper-100); }
+/* mapa Estradas: estradas tremidas, nós como pequenos laços de mola */
+.rede .m-via { fill: none; stroke: var(--ink-900); stroke-linecap: round; stroke-linejoin: round; transition: opacity var(--t); }
+.mapa.rede.foco .m-via { opacity: 0.16; }
+.mapa.rede.foco .m-via.on { opacity: 1; }
+.rede .m-laco { fill: none; stroke: var(--ink-900); stroke-width: 0.9; stroke-linecap: round; opacity: 0.85; }
+.rede .m-no { cursor: grab; touch-action: none; -webkit-user-select: none; user-select: none; -webkit-user-drag: none; }
+.rede.puxando, .rede.puxando .m-no { cursor: grabbing; }
+.rede .m-cruza { cursor: grab; }
+.rede .m-alvo { pointer-events: all; }
+.rede .m-nome, .rede .m-ano { paint-order: stroke; stroke: var(--bg); stroke-width: 3.5px; stroke-linejoin: round; }
+.mapa-v.rede .t3 .m-nome, .mapa-v.rede .t2 .m-nome { font-size: 21px; } .mapa-v.rede .t1 .m-nome { font-size: 18.5px; }
+.mapa-v.rede .m-ano { font-size: 14px; }
+.mapa-v.rede .m-nome, .mapa-v.rede .m-ano { stroke-width: 6px; }
+.mapa-v.rede .m-via { stroke-width: 2px; }
+.noite .rede .m-via, .noite .rede .m-laco { stroke: var(--text); }
+
 .mapa.foco .m-linhas line:not(.m-halo) { opacity: 0.14; }
 .mapa.foco .m-linhas line.on { opacity: 1; }
 .m-no { cursor: pointer; text-decoration: none; }

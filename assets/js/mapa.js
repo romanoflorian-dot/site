@@ -1,104 +1,179 @@
-/* Mapa Esquina — sobre o desenho Esquina VI.
-   Desenho parado, sem movimento.
-   Ao passar sobre um cruzamento, as linhas que o atravessam ficam em evidência e um som escapa. */
+/* Mapa "Estradas" — as obras são cidades, as linhas são estradas.
+   Cada ponto é um pequeno laço de mola: ao puxar um ponto, o desenho inteiro
+   se mexe um pouco e depois volta ao lugar.
+   Ao passar sobre um ponto, as estradas que saem dele ficam em evidência e um som escapa. */
 document.addEventListener("DOMContentLoaded", function () {
   var reduz = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  document.querySelectorAll(".mapa").forEach(function (svg) {
-    var linhas = Array.prototype.slice.call(svg.querySelectorAll(".m-linhas line"));
-    var W = parseFloat(svg.getAttribute("data-w")), H = parseFloat(svg.getAttribute("data-h"));
-    var cx = W / 2, cy = H / 2, L = Math.max(W, H);
-
-    /* data-p traz as pontas da linha centradas no quadro (x, y, profundidade); aqui só x e y importam */
-    var segs = linhas.map(function (l) {
-      var v = l.getAttribute("data-p").split(",").map(parseFloat);
-      var p = v.length === 6 ? [v[0] + cx, v[1] + cy, v[3] + cx, v[4] + cy] : v;
-      return { el: l, p: p };
-    });
-    var obras = [];
-    svg.querySelectorAll(".m-no").forEach(function (no) {
-      obras.push({ el: no, x: parseFloat(no.getAttribute("data-x")), y: parseFloat(no.getAttribute("data-y")) });
-    });
-
-    /* inclinação: A e B deformam em perspectiva, r gira um pouco o plano */
-    var A = 0, B = 0, cr = 1, sr = 0;
-    function leva(x, y) {
-      var X = x - cx, Y = y - cy;
-      var w = 1 + A * X + B * Y;
-      X /= w; Y /= w;
-      return [cx + X * cr - Y * sr, cy + X * sr + Y * cr];
+  document.querySelectorAll(".mapa.rede").forEach(function (svg) {
+    /* ---- pontos: cidades (obras), cruzamentos e pontas soltas */
+    var pts = {}, lista = [];
+    function novo(el, id, tipo) {
+      var p = { el: el, id: id, tipo: tipo,
+        x0: parseFloat(el.getAttribute("data-x")), y0: parseFloat(el.getAttribute("data-y")),
+        ux: 0, uy: 0, vx: 0, vy: 0, viz: [], papel: [], preso: false, tx: 0, ty: 0 };
+      pts[id] = p; lista.push(p);
+      return p;
     }
-    function desenha(ox, oy) {
-      A = ox * 0.16 / L; B = oy * 0.12 / L;
-      var r = ox * 0.025; cr = Math.cos(r); sr = Math.sin(r);
-      segs.forEach(function (s) {
-        var a = leva(s.p[0], s.p[1]), b = leva(s.p[2], s.p[3]);
-        s.el.setAttribute("x1", a[0].toFixed(1)); s.el.setAttribute("y1", a[1].toFixed(1));
-        s.el.setAttribute("x2", b[0].toFixed(1)); s.el.setAttribute("y2", b[1].toFixed(1));
-      });
-      obras.forEach(function (o) {
-        var q = leva(o.x, o.y);
-        o.el.setAttribute("transform", "translate(" + (q[0] - o.x).toFixed(1) + " " + (q[1] - o.y).toFixed(1) + ")");
+    svg.querySelectorAll(".m-no").forEach(function (el) {
+      novo(el, el.getAttribute("data-no") || el.getAttribute("data-id"), "no");
+    });
+    svg.querySelectorAll(".m-ponta").forEach(function (el) {
+      novo(el, el.getAttribute("data-id"), "ponta");
+    });
+
+    /* ---- estradas */
+    var vias = [];
+    svg.querySelectorAll(".m-via").forEach(function (el) {
+      var a = pts[el.getAttribute("data-a")], b = pts[el.getAttribute("data-b")];
+      if (!a || !b) return;
+      var v = { el: el, a: a, b: b, c: parseFloat(el.getAttribute("data-c")) || 0,
+        o: el.getAttribute("data-o").split(",").map(parseFloat) };
+      a.viz.push(b); b.viz.push(a);
+      vias.push(v);
+    });
+
+    /* o papel: cada ponto também se liga, sem linha visível, aos três pontos mais próximos,
+       para que nenhuma parte do desenho fique solta do resto */
+    lista.forEach(function (p) {
+      lista.filter(function (q) { return q !== p; })
+        .sort(function (q, r) {
+          return Math.hypot(q.x0 - p.x0, q.y0 - p.y0) - Math.hypot(r.x0 - p.x0, r.y0 - p.y0);
+        })
+        .slice(0, 3).forEach(function (q) {
+          if (p.papel.indexOf(q) < 0) { p.papel.push(q); q.papel.push(p); }
+        });
+    });
+
+    function desenhaVia(v) {
+      var ax = v.a.x0 + v.a.ux, ay = v.a.y0 + v.a.uy, bx = v.b.x0 + v.b.ux, by = v.b.y0 + v.b.uy;
+      var dx = bx - ax, dy = by - ay, L = Math.sqrt(dx * dx + dy * dy) || 1;
+      var nx = -dy / L, ny = dx / L, n = v.o.length - 1, d = "";
+      for (var i = 0; i <= n; i++) {
+        var t = i / n, k = v.c * 4 * t * (1 - t) * L + v.o[i];
+        d += (i ? " L" : "M") + (ax + dx * t + nx * k).toFixed(1) + " " + (ay + dy * t + ny * k).toFixed(1);
+      }
+      v.el.setAttribute("d", d);
+    }
+    function desenha() {
+      vias.forEach(desenhaVia);
+      lista.forEach(function (p) {
+        if (p.tipo === "no") p.el.setAttribute("transform", "translate(" + p.ux.toFixed(2) + " " + p.uy.toFixed(2) + ")");
       });
     }
 
-    /* foco num cruzamento */
-    var parado = false;
+    /* ---- molas
+       cada ponto está preso ao seu lugar por uma mola fraca (ANC)
+       e aos vizinhos por molas mais fortes (VIZ): o puxão se espalha pelo desenho, diminuindo */
+    var VIZ = 0.035, PAPEL = 0.012, ANC = 0.06, ATRITO = reduz ? 0.6 : 0.86, LIMITE = 70;
+    var rodando = false;
+    function passo() {
+      var energia = 0;
+      lista.forEach(function (p) {
+        if (p.preso) return;
+        var fx = -ANC * p.ux, fy = -ANC * p.uy;
+        p.viz.forEach(function (q) { fx += VIZ * (q.ux - p.ux); fy += VIZ * (q.uy - p.uy); });
+        p.papel.forEach(function (q) { fx += PAPEL * (q.ux - p.ux); fy += PAPEL * (q.uy - p.uy); });
+        p.vx = (p.vx + fx) * ATRITO; p.vy = (p.vy + fy) * ATRITO;
+      });
+      lista.forEach(function (p) {
+        if (p.preso) {
+          var mx = (p.tx - p.ux) * 0.35, my = (p.ty - p.uy) * 0.35;
+          p.ux += mx; p.uy += my;
+          energia += Math.abs(mx) + Math.abs(my);
+          return;
+        }
+        p.ux += p.vx; p.uy += p.vy;
+        energia += Math.abs(p.vx) + Math.abs(p.vy) + (Math.abs(p.ux) + Math.abs(p.uy)) * 0.01;
+      });
+      return energia;
+    }
+    function quadro() {
+      var e = passo();
+      desenha();
+      if (e > 0.02 || arrasto) requestAnimationFrame(quadro);
+      else {
+        lista.forEach(function (p) { p.ux = p.uy = p.vx = p.vy = 0; });
+        desenha();
+        rodando = false;
+      }
+    }
+    function acorda() { if (!rodando) { rodando = true; requestAnimationFrame(quadro); } }
+
+    /* ---- puxar um ponto */
+    var arrasto = null;
+    function noSvg(ev) {
+      var m = svg.getScreenCTM();
+      if (!m) return null;
+      var pt = svg.createSVGPoint(); pt.x = ev.clientX; pt.y = ev.clientY;
+      return pt.matrixTransform(m.inverse());
+    }
+    function resiste(d) { /* quanto mais longe, mais a mola resiste */
+      var r = Math.sqrt(d[0] * d[0] + d[1] * d[1]);
+      if (!r) return d;
+      var f = LIMITE * (1 - Math.exp(-r / LIMITE)) / r;
+      return [d[0] * f, d[1] * f];
+    }
+    svg.querySelectorAll(".m-no").forEach(function (el) {
+      var p = pts[el.getAttribute("data-no") || el.getAttribute("data-id")];
+      el.addEventListener("pointerdown", function (ev) {
+        if (ev.button > 0) return;
+        var s = noSvg(ev); if (!s) return;
+        arrasto = { p: p, el: el, id: ev.pointerId, sx: ev.clientX, sy: ev.clientY, ox: s.x, oy: s.y, moveu: false };
+      });
+      el.addEventListener("click", function (ev) {
+        if (el.getAttribute("data-puxado")) { ev.preventDefault(); el.removeAttribute("data-puxado"); }
+      });
+      el.addEventListener("dragstart", function (ev) { ev.preventDefault(); });
+    });
+    window.addEventListener("pointermove", function (ev) {
+      if (!arrasto || ev.pointerId !== arrasto.id) return;
+      if (!arrasto.moveu) {
+        if (Math.abs(ev.clientX - arrasto.sx) + Math.abs(ev.clientY - arrasto.sy) < 6) return;
+        arrasto.moveu = true;
+        arrasto.p.preso = true;
+        svg.classList.add("puxando");
+        try { arrasto.el.setPointerCapture(ev.pointerId); } catch (e) {}
+      }
+      var s = noSvg(ev); if (!s) return;
+      var d = resiste([s.x - arrasto.ox, s.y - arrasto.oy]);
+      arrasto.p.tx = d[0]; arrasto.p.ty = d[1];
+      acorda();
+      ev.preventDefault();
+    });
+    function largar(ev) {
+      if (!arrasto || (ev && ev.pointerId !== arrasto.id)) return;
+      if (arrasto.moveu) {
+        arrasto.el.setAttribute("data-puxado", "1");
+        setTimeout(function (el) { return function () { el.removeAttribute("data-puxado"); }; }(arrasto.el), 400);
+        arrasto.p.preso = false;
+        arrasto.p.vx = arrasto.p.vy = 0;
+        svg.classList.remove("puxando");
+        acorda();
+      }
+      arrasto = null;
+    }
+    window.addEventListener("pointerup", largar);
+    window.addEventListener("pointercancel", largar);
+
+    /* ---- foco num ponto: as estradas que saem dele */
     function focar(id) {
-      parado = true;
       svg.classList.add("foco");
-      linhas.forEach(function (l) {
-        l.classList.toggle("on", (" " + l.getAttribute("data-n") + " ").indexOf(" " + id + " ") > -1);
-      });
+      vias.forEach(function (v) { v.el.classList.toggle("on", v.a.id === id || v.b.id === id); });
     }
     function soltar() {
-      parado = false;
       svg.classList.remove("foco");
-      linhas.forEach(function (l) { l.classList.remove("on"); });
+      vias.forEach(function (v) { v.el.classList.remove("on"); });
     }
-    svg.querySelectorAll(".m-no").forEach(function (no) {
-      var id = no.getAttribute("data-id");
-      var ano = parseInt(no.getAttribute("data-ano"), 10) || 2010;
+    svg.querySelectorAll("a.m-no").forEach(function (el) {
+      var id = el.getAttribute("data-no");
+      var ano = parseInt(el.getAttribute("data-ano"), 10) || 2010;
       var freq = 260 + (ano - 2000) * 85;   /* obras mais recentes soam mais agudas */
-      function entrar() { focar(id); if (window.FRSom) window.FRSom.escapar(freq); }
-      no.addEventListener("mouseenter", entrar);
-      no.addEventListener("focus", entrar);
-      no.addEventListener("mouseleave", soltar);
-      no.addEventListener("blur", soltar);
+      function entrar() { focar(id); if (window.FRSom && !arrasto) window.FRSom.escapar(freq); }
+      el.addEventListener("mouseenter", entrar);
+      el.addEventListener("focus", entrar);
+      el.addEventListener("mouseleave", function () { if (!arrasto) soltar(); });
+      el.addEventListener("blur", soltar);
     });
-
-    /* sem movimento: o desenho fica parado, bidimensional (a pedido do artista) */
-    return;
-
-    var alvo = [0, 0], atual = [0, 0], ultimoCursor = -1e9, visivel = true, inicio = performance.now();
-    var area = svg.closest(".inicio") || svg;
-    area.addEventListener("pointermove", function (ev) {
-      if (ev.pointerType && ev.pointerType !== "mouse") return;
-      var r = svg.getBoundingClientRect();
-      if (!r.width) return;
-      alvo[0] = Math.max(-1, Math.min(1, ((ev.clientX - r.left) / r.width - 0.5) * 2));
-      alvo[1] = Math.max(-1, Math.min(1, ((ev.clientY - r.top) / r.height - 0.5) * 2));
-      ultimoCursor = performance.now();
-    });
-    if ("IntersectionObserver" in window) {
-      new IntersectionObserver(function (es) { visivel = es[0].isIntersecting; }).observe(svg);
-    }
-
-    function quadro(t) {
-      requestAnimationFrame(quadro);
-      if (!visivel || document.hidden || !svg.getBoundingClientRect().width || parado) return;
-      var livre = t - ultimoCursor > 2500;
-      if (livre) {                                  /* deriva lenta */
-        var u = (t - inicio) / 1000;
-        alvo[0] = 0.5 * Math.sin(u * 0.11);
-        alvo[1] = 0.4 * Math.sin(u * 0.07 + 1.3);
-      }
-      var k = livre ? 0.03 : 0.07;
-      var nx = atual[0] + (alvo[0] - atual[0]) * k, ny = atual[1] + (alvo[1] - atual[1]) * k;
-      if (Math.abs(nx - atual[0]) + Math.abs(ny - atual[1]) < 0.0003) return;
-      atual = [nx, ny];
-      desenha(atual[0], atual[1]);
-    }
-    requestAnimationFrame(quadro);
   });
 });
